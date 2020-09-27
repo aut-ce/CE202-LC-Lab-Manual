@@ -16,3 +16,5 @@ AUT Computer Architecture Laboratory Material and Template Sources
 * [**:pencil2: Lab-07**](https://github.com/aut-ce/CE202-LC-Lab-Material/tree/master/assignment-07)
 * [**:pencil2: Lab-08**](https://github.com/aut-ce/CE202-LC-Lab-Material/tree/master/assignment-08)
 
+## Teaching Assistants and Lab Instructors over Semesters
+Dear Laboratory instructor, you can add your name and semester in [**who-had-logic-lab-ta.md**](./who-had-logic-lab-ta.md) file by pull request or add issue.
