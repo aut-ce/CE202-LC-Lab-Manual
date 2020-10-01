@@ -11,5 +11,7 @@
 <!-- Example -->
 [:mortar_board:aliemo](https://github.com/aliemo), Fall, 2019
 
+[:mortar_board:aliemo](https://github.com/aliemo), Fall, 2019
+
 <!-- add yours above line -->
 
