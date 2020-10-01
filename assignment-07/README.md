@@ -1,5 +1,4 @@
 # CE202-LC-Lab-Material
 
-## Logic Circuits Lab 04
-
+## Logic Circuits Lab 07
 
