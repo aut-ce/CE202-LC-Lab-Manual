@@ -6,7 +6,7 @@
 
 > Course Supervisors (Instructors): Dr. M. Saheb Zamani and Dr. M. Sedighi
 
-AUT Computer Architecture Laboratory Material and Template Sources
+AUT Logic Circuits Laboratory Material and Template Sources
 
 ## Assignments Quick Link
 
