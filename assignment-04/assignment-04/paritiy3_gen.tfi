@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+paritiy3_gen instance_name (
+    .a(a), 
+    .b(b), 
+    .c(c), 
+    .f(f)
+    );
+
+

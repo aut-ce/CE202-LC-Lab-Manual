@@ -1,0 +1,10 @@
+[Inputs]
+a
+b
+c
+[Outputs]
+f
+[BiDir]
+[ATTRIBUTES]
+VeriModel paritiy3_gen_sop
+

@@ -6,11 +6,11 @@
 --  *******************************************************
 --  All Rights reserved (C) 2019-2020
 --  *******************************************************
---  Student ID  : 
---  Student Name: 
---  Student Mail: 
+--  Student ID  : 9831068	
+--  Student Name: Farshid Nooshi
+--  Student Mail: farshidnooshi726@aut.ac.ir
 --  *******************************************************
---  Additional Comments:
+--  Additional Comments: 
 --
 --*/ 
 
@@ -27,7 +27,7 @@ module paritiy3_gen (
 	output f	
 );
 	/* write your code here */
-	
+	xnor ans(f, a, b, c);
 	/* write your code here */
 
 endmodule

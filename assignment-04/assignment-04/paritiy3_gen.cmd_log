@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/assignment-04/paritiy3_gen.xst" -ofn "C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/assignment-04/paritiy3_gen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 paritiy3_gen.ngc paritiy3_gen.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o paritiy3_gen_map.ncd paritiy3_gen.ngd paritiy3_gen.pcf 
+par -w -intstyle ise -ol high -mt off paritiy3_gen_map.ncd paritiy3_gen.ncd paritiy3_gen.pcf 
+xst -intstyle ise -ifn "C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/assignment-04/paritiy3_gen.xst" -ofn "C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/assignment-04/paritiy3_gen.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 paritiy3_gen.ngc paritiy3_gen.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o paritiy3_gen_map.ncd paritiy3_gen.ngd paritiy3_gen.pcf 
+par -w -intstyle ise -ol high -mt off paritiy3_gen_map.ncd paritiy3_gen.ncd paritiy3_gen.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml paritiy3_gen.twx paritiy3_gen.ncd -o paritiy3_gen.twr paritiy3_gen.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim paritiy3_gen.ngc paritiy3_gen_synthesis.v 
+vhdtdtfi -lang verilog -prj assignment-04 -o C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/assignment-04/paritiy3_gen.tfi -lib work C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04//paritiy3_gen.v -module paritiy3_gen -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/assignment-04/paritiy3_gen.xst" -ofn "C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/assignment-04/paritiy3_gen.syr" 

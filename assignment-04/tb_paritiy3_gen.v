@@ -6,9 +6,9 @@
 --  *******************************************************
 --  All Rights reserved (C) 2019-2020
 --  *******************************************************
---  Student ID  : 
---  Student Name: 
---  Student Mail: 
+--  Student ID  : 9831068	
+--  Student Name: Farshid Nooshi	
+--  Student Mail: farshidnooshi726@aut.ac.ir
 --  *******************************************************
 --  Additional Comments:
 --
@@ -44,10 +44,23 @@ wire f_parity_gen_sop;
 
 	initial 
 		begin
-		a <= 1'b0;
-		b <= 1'b0;
-		c <= 1'b0;
+		a = 1'b0; b = 1'b0; c = 1'b0;
 		# 10;
+		a = 1'b0; b = 1'b0; c = 1'b1;
+		# 10;
+		a = 1'b0; b = 1'b1; c = 1'b0;
+		# 10;
+		a = 1'b0; b = 1'b1; c = 1'b1;
+		# 10;
+		a = 1'b1; b = 1'b0; c = 1'b0;
+		# 10;
+		a = 1'b1; b = 1'b0; c = 1'b1;
+		# 10;
+		a = 1'b1; b = 1'b1; c = 1'b0;
+		# 10;
+		a = 1'b1; b = 1'b1; c = 1'b1;
+		# 10;
+		$finish;
 		// write your code here
 		
 	end
