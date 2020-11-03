@@ -1,0 +1,10 @@
+set -loop_iteration_limit 1000
+run
+-ifn paritiy3_gen.prj
+-top paritiy3_gen
+-p xc7z010clg400-1
+-ofn paritiy3_gen.ngc
+-opt_mode speed
+-opt_level 1
+-lc auto
+-bufg 32

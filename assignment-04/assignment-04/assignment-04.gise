@@ -33,8 +33,8 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
-    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/paritiy3_gen_synthesis.nlf"/>
-    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/paritiy3_gen_synthesis.v"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/paritiy3_gen_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/paritiy3_gen_synthesis.v"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="paritiy3_gen.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="paritiy3_gen.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="paritiy3_gen.lso"/>
@@ -94,6 +94,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1604412629" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1604412629">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1604413711" xil_pn:in_ck="-108645717790513539" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1604413711">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -150,50 +151,13 @@
     </transform>
     <transform xil_pn:end_ts="1604411537" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1604411537">
       <status xil_pn:value="SuccessfullyRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1604413978" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3458122509150647415" xil_pn:start_ts="1604413978">
-      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1604413978" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5499473194661069333" xil_pn:start_ts="1604413978">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1604413978" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1604413978">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1604413978" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4851622355701995525" xil_pn:start_ts="1604413978">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1604413978" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8912443121649815033" xil_pn:start_ts="1604413978">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1604413978" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3944509567096068641" xil_pn:start_ts="1604413978">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1604413987" xil_pn:in_ck="-108645717790513539" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-7226813403934455579" xil_pn:start_ts="1604413978">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="paritiy3_gen.lso"/>
-      <outfile xil_pn:name="paritiy3_gen.ngc"/>
-      <outfile xil_pn:name="paritiy3_gen.ngr"/>
-      <outfile xil_pn:name="paritiy3_gen.prj"/>
-      <outfile xil_pn:name="paritiy3_gen.stx"/>
-      <outfile xil_pn:name="paritiy3_gen.syr"/>
-      <outfile xil_pn:name="paritiy3_gen.xst"/>
-      <outfile xil_pn:name="paritiy3_gen_sop.prj"/>
-      <outfile xil_pn:name="paritiy3_gen_xst.xrpt"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
     </transform>
     <transform xil_pn:end_ts="1604411547" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7295544027190747344" xil_pn:start_ts="1604411547">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
   </transforms>
 

@@ -8,7 +8,13 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/paritiy3_gen.v&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/paritiy3_gen_sop.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Farshid726/Desktop/Codes/AUT/CE202-LC-Lab-Manual/assignment-04/tb_paritiy3_gen.v&quot; into library work</arg>
 </msg>
 
 </messages>
