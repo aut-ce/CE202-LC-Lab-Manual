@@ -21,7 +21,12 @@ AUT Logic Circuits Laboratory Material and Template Sources
 
 [2] Don't upload your codes in public domain.
 
-[3] Update cloned branch for new assignments template (`git pull`)
+[3] Update cloned branch for new assignments template
+* Add the remote, call it "upstream":
+* `git remote add upstream https://github.com/aut-ce/CE202-LC-Lab-Manual`
+* `git fetch upstream`
+* `git checkout main`
+* `git rebase upstream/main`
 
 [4] Create new branch for assignments (`git branch ca-lab-xx`)
 
@@ -33,4 +38,3 @@ AUT Logic Circuits Laboratory Material and Template Sources
 
 ## Teaching Assistants and Lab Instructors over Semesters
 Dear Laboratory instructor, you can add your name and semester in [**who-had-logic-lab-ta.md**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/who-had-logic-lab-ta.md) file by pull request or add issue.
-
