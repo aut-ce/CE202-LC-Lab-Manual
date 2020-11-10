@@ -22,8 +22,8 @@
 
 module decoder2x4 (
 	input [1:0] in ,
-	input 		en ,
-	output [3:0] dout,	
+	input en ,
+	output [3:0] dout
 );
 	/* write your code here */
 	

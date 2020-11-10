@@ -23,7 +23,7 @@
 module multiplexer4x1 (
 	input [3:0] w ,
 	input [1:0]	sel ,
-	output [3:0] y,	
+	output [3:0] y
 );
 	/* write your code here */
 	

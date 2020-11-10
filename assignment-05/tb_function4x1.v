@@ -21,16 +21,15 @@
 `timescale 1 ns/1 ns
 
 
-module tb_decoder2x4 ();
+module tb_function4x1 ();
 
 	
 reg a;
 reg b;
 reg c;
 reg d;
-
-reg 
-	wire f;
+ 
+wire f;
 	function4x1 test_function4x1 (.a(a), .b(b), .c(c), .d(d), .f(f));
 
 
