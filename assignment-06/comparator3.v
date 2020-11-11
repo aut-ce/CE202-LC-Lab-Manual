@@ -23,12 +23,12 @@
 module comparator3 (
 	input [2:0] A ,
 	input [2:0] B ,
-	input 		l ,
-	input 		e ,
-	input 		g ,
-	output 		lt ,
-	output 		et ,
-	output 		gt
+	input l ,
+	input e ,
+	input g ,
+	output lt ,
+	output et ,
+	output gt
 );
 
 	/* write your code here */
@@ -36,3 +36,4 @@ module comparator3 (
 	/* write your code here */
 
 endmodule
+

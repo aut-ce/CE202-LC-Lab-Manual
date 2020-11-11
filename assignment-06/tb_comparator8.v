@@ -15,16 +15,16 @@
 --*/
 
 /*-----------------------------------------------------------
----  Module Name: Decoder Testbench
----  Description: Lab 05 Part 1 Testbench
+---  Module Name: 8 Bit Comparator Testbench
+---  Description: Lab 06 Part 2 Testbench
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
 
 module tb_comparator3 ();
 
-reg [2:0] A;
-reg [2:0] B;
+reg [7:0] A;
+reg [7:0] B;
 reg l;
 reg e;
 reg g;
@@ -32,7 +32,7 @@ wire lt;
 wire et;
 wire gt;
 
-	comparator3 test_comparator3 (.A(A), .B(B), .l(l), .e(e), .g(g), .lt(lt), .et(et), .gt(gt));
+	comparator8 test_comparator8 (.A(A), .B(B), .l(l), .e(e), .g(g), .lt(lt), .et(et), .gt(gt));
 
 
 	initial 

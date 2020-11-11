@@ -18,9 +18,15 @@
 
 * Simulate 3 bits comparator in Xilinx ISim. You can use included testbench files.
 
+* Synthesis 3 Bit Comparator without any error and warning.
+
+* Save RTL Schematic of 3 bit comparator as a file.
+
 * Design 8 bits comparator using 3 bits comparator and write verilog code of it (***comparator8.v***).
 
-* complete  testbench file that design for validate the correctness of modules (***tb_comparator8.v***).
+* Complete testbench file of 8 bit comparator for validate the correctness of modules (***tb_comparator8.v***).
+
+* Synthesis 8 Bit comparator and report reason of any warning.
 
 ### Submission Sources
 * Source files (Grading Sources)
