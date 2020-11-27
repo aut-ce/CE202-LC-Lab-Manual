@@ -29,6 +29,8 @@ module alu (
 
 	/* write your code here */
 	
+
 	/* write your code here */
 
+	// use multiplexer4x4 here
 endmodule
