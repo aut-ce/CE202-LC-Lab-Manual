@@ -13,7 +13,7 @@
 
 * Write verilog code sequentioal circuit.
 
-![ADDSUB](./raw/alu.png)
+![SEQUENTIAL](./raw/sequential.png)
 
 ### Grading Sources
 
@@ -26,6 +26,8 @@
 * Save RTL Schematic of sequentioal circuit in flat mode and check its correctness.
 
 * Complete testbench file of sequential logic as input waveform and check the correctness it by comparing with you quiz waveform (***tb_alu.v***).
+
+![SEQUENTIAL_WAVE](./raw/sequential_wave.png)
 
 ### Submission Sources
 * Source files (Grading Sources)
