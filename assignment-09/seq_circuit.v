@@ -15,12 +15,12 @@
 --*/
 
 /*-----------------------------------------------------------
----  Module Name: D Flip Flop
----  Description: Lab 09 Part 1
+---  Module Name: Sequential Circuit
+---  Description: Lab 09 Part 2
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-module dflop (
+module seq_circuit (
 	input rst ,
 	input clk ,
 	input a ,

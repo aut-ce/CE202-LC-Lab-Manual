@@ -21,7 +21,7 @@
 `timescale 1 ns/1 ns
 
 
-module tb_adder_subtractor_4bit ();
+module tb_seq_circuit ();
 
 reg a;
 reg b;
