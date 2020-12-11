@@ -15,6 +15,7 @@ AUT Logic Circuits Laboratory Material and Template Sources
 * [**:pencil2: Lab-06**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/assignment-06)
 * [**:pencil2: Lab-07**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/assignment-07)
 * [**:pencil2: Lab-08**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/assignment-08)
+* [**:pencil2: Lab-09**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/assignment-09)
 
 ## Videos Link
 
