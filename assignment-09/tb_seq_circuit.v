@@ -23,6 +23,8 @@
 
 module tb_seq_circuit ();
 
+reg clk;
+reg rst;
 reg a;
 reg b;
 
