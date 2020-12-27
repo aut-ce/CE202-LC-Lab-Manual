@@ -31,4 +31,3 @@ module multiplier8x8 (
 	/* write your code here */
 
 endmodule
-

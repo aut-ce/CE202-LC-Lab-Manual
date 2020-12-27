@@ -32,4 +32,3 @@ module TemperatureCalculator (
 	/* write your code here */
 
 endmodule
-

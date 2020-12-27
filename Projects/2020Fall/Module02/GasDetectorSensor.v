@@ -30,4 +30,3 @@ module GasDetectorSensor (
 	/* write your code here */
 
 endmodule
-

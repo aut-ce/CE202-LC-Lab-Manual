@@ -8,4 +8,3 @@ This is final project of 2020, Fall Semester.
 ### Description
 
 ### Grading Table
-
