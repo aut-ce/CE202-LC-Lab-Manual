@@ -20,11 +20,11 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-module adder_subtractor_32bit (
-	input  [31:0] A    ,
-	input  [31:0] B    ,
-	input         sel  , 
-	output [31:0] S
+module AdderSubtractor32x32 (
+	input  [31:0] A    , // input  [2's complement 32 bits]
+	input  [31:0] B    , // input  [2's complement 32 bits]
+	input         sel  , // input  [add:sel=0 || sub:sel=1] 
+	output [31:0] S      // output [2's complement 32 bits]
 );
 	// if sel = 0 then add else subtract
 	/* write your code here */

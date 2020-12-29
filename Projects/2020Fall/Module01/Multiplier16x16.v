@@ -20,10 +20,10 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-module multiplier16x16 (
-	input  [15:0] A ,
-	input  [15:0] B ,
-	output [31:0] P
+module Multiplier16x16 (
+	input  [15:0] A , // input  [unsigned 16 bits]
+	input  [15:0] B , // input  [unsigned 16 bits]
+	output [31:0] P   // output [unsigned 32 bits]
 );
 
 	/* write your code here */

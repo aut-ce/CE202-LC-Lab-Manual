@@ -20,10 +20,10 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-module multiplier8x8 (
-	input  [ 7:0] A ,
-	input  [ 7:0] B ,
-	output [15:0] P
+module Multiplier8x8 (
+	input  [ 7:0] A , // input  [unsigned 08 bits]
+	input  [ 7:0] B , // input  [unsigned 08 bits]
+	output [15:0] P   // output [unsigned 16 bits]
 );
 
 	/* write your code here */
