@@ -21,8 +21,9 @@
 `timescale 1 ns/1 ns
 
 module GasDetectorSensor (
+	input        clk ,
 	input        din ,
-	output [2:0] tempc
+	output [2:0] gas_mode
 );
 
 	/* write your code here */

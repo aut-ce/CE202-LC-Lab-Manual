@@ -21,6 +21,7 @@
 `timescale 1 ns/1 ns
 
 module FanSpeed (
+	input        clk      ,
 	input  [7:0] speed    ,
 	output       pwm_data
 );

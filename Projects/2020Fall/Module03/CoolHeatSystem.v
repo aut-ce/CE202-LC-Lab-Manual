@@ -21,6 +21,7 @@
 `timescale 1 ns/1 ns
 
 module CoolHeatSystem (
+	input        clk       ,
 	input  [7:0] chs_conf  ,
 	input  [7:0] speed     ,
 	output [3:0] chs_power ,
