@@ -23,7 +23,7 @@
 module multiplier16x16 (
 	input  [15:0] A ,
 	input  [15:0] B ,
-	output [15:0] P
+	output [31:0] P
 );
 
 	/* write your code here */

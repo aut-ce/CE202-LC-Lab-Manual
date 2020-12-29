@@ -21,9 +21,9 @@
 `timescale 1 ns/1 ns
 
 module multiplier8x8 (
-	input  [7:0] A ,
-	input  [7:0] B ,
-	output [7:0] P
+	input  [ 7:0] A ,
+	input  [ 7:0] B ,
+	output [15:0] P
 );
 
 	/* write your code here */

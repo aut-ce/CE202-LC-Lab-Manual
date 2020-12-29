@@ -21,9 +21,10 @@
 `timescale 1 ns/1 ns
 
 module FanSpeed (
-	input        clk      ,
-	input  [7:0] speed    ,
-	output       pwm_data
+	input        arst     , // reset [asynch]  
+	input        clk      , // clock [posedge] 
+	input  [7:0] speed    , // speed [duty-cycle]  
+	output       pwm_data   // data  [output]
 );
 
 	/* write your code here */

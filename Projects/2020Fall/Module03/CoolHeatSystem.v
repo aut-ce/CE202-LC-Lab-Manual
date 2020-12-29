@@ -21,12 +21,17 @@
 `timescale 1 ns/1 ns
 
 module CoolHeatSystem (
-	input        clk       ,
-	input  [7:0] chs_conf  ,
-	input  [7:0] speed     ,
-	output [3:0] chs_power ,
-	output       chs_mode  ,
-	output       pwm_data
+	input        arst      , // reset [asynch]  
+	input        clk       , // clock [posedge] 
+	
+	input  [7:0] speed     , // speed [duty-cycle]  
+	
+	input  [7:0] chs_conf  , // degree [temprature] 
+	
+	output [3:0] chs_power , // power  [cooler/heater] 
+	output       chs_mode    // model  [heat=1/cool=0]
+
+	output       pwm_data   // data  [output]
 );
 
 	/* write your code here */

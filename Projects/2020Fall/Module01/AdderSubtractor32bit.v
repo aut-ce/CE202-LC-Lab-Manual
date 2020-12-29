@@ -21,16 +21,14 @@
 `timescale 1 ns/1 ns
 
 module adder_subtractor_32bit (
-	input [31:0] A ,
-	input [31:0] B ,
-	input sel , // 0: add, 1: subtract
-	output [31:0] S ,
-	output cout
+	input  [31:0] A    ,
+	input  [31:0] B    ,
+	input         sel  , 
+	output [31:0] S
 );
-
+	// if sel = 0 then add else subtract
 	/* write your code here */
 	
 	/* write your code here */
 
 endmodule
-

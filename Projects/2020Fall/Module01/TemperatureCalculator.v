@@ -18,13 +18,13 @@
 ---  Module Name: Temperature Calculator
 ---  Description: Module1: 
 -----------------------------------------------------------*/
-`timescale 1 ns/1 ns
+`timescale 1 ns/1 ns 
 
 module TemperatureCalculator (
-	input  [31:0] tc_base ,
-	input  [ 7:0] tc_ref ,
-	input  [15:0] adc_data ,
-	output [31:0] tempc
+	input  [31:0] tc_base  , // base [environment degree ]
+	input  [ 7:0] tc_ref   , // ref  [system work voltage]
+	input  [15:0] adc_data , // adc  [sensor digital data]
+	output [31:0] tempc      // temp [temperature celsius]
 );
 
 	/* write your code here */

@@ -15,20 +15,15 @@
 --*/
 
 /*-----------------------------------------------------------
----  Module Name: Gas Detector Sensor
+---  Module Name: Gas Engine Utils
 ---  Description: Module2:
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-module GasDetectorSensor (
-	input        arst     , // async reset
-	input        clk      , // clock posedge
-	input        din      , // input data 
-	output [2:0] dout       // output data
-);
+/***********************************************************/
+/************** Design Your Own Modules Below **************/
 
-	/* write your code here */
+
 	
-	/* write your code here */
-
-endmodule
+/************** Design Your Own Modules Above **************/
+/***********************************************************/
