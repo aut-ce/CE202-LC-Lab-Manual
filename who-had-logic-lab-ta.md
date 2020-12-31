@@ -1,22 +1,29 @@
-# Who Know CA-208-Lab
+# Teaching Assistants and Laboratory Instructors over Semesters
 
-## **Students thats Completed Logic Circuits Laboratory at AUT**
+## **Who Was TA/LA of Logic Circuits at CE-AUT**
 
 > Computer Architecture Laboratory of Computer Engineering Department
 
 > **AUT**, Amirkabir University of Technology (Tehran Polytechnic)
 
 ## Template
-**AVATAR, Github-ID or Name, Semester, Year**
+**AVATAR, Github-ID, Name, (Lab Instructor / Course TA)**
 <!-- Example -->
-[:mortar_board:aliemo](https://github.com/aliemo), Fall, 2020, Repo Maintainer
+### Fall 2019 Semester
 
-[:mortar_board:aliemo](https://github.com/aliemo), Fall, 2019, Repo Maintainer
+[:mortar_board:alimpk](https://github.com/alimpk), Ali Mohammadpour, Repo Maintainer
 
-[:mortar_board:alirezab16](https://github.com/alirezab16), Fall, 2020, Instructor
+[:mortar_board:alimpk](https://github.com/alimpk), Ali Mohammadpour, Laboratory Instructor
 
-[:mortar_board:alirezab16](https://github.com/alirezab16), Fall, 2019, Instructor
+[:mortar_board:alirezab16](https://github.com/alirezab16), Alireza Borhani, Laboratory Instructor
 
+### Fall 2020 Semester
+
+[:mortar_board:alimpk](https://github.com/alimpk), Ali Mohammadpour, Repo Maintainer
+
+[:mortar_board:alimpk](https://github.com/alimpk), Ali Mohammadpour, Laboratory Instructor
+
+[:mortar_board:alirezab16](https://github.com/alirezab16), Alireza Borhani, Laboratory Instructor
 
 <!-- add yours above line -->
 
