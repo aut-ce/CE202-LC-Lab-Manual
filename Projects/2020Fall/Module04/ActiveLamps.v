@@ -15,18 +15,16 @@
 --*/
 
 /*-----------------------------------------------------------
----  Module Name: Lighting System
+---  Module Name: Active Lights
 ---  Description: Module4: 
 -----------------------------------------------------------*/
-`timescale 1 ns/1 ns 
+`timescale 1 ns/1 ns
 
-module LightingSystem (
-	input  [ 3:0] tcode      , // time code    [table2 time code   ]
-	input  [ 3:0] ulight     , // user light   [light degree mode  ]
-	input  [ 3:0] lenght     , // room length  [square room lenght ]
-	output [ 3:0] wshade     , // shade level  [window shade level ]
-	output [ 3:0] lightnum   , // number on    [number of active   ]
-	output [15:0] lightstate   // lights state [lights state decode]
+module ActiveLamps (
+	input  [3:0] tcode  , // time code    [table2 time code   ]
+	input  [3:0] ulight , // user light   [light degree mode  ]
+    input  [3:0] lenght     , // room length  [square room lenght ]
+	output [3:0] active_lights  // number of active light
 );
 
 	/* write your code here */

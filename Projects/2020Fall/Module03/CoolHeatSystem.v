@@ -29,9 +29,9 @@ module CoolHeatSystem (
 	input  [7:0] chs_conf  , // degree [temprature] 
 	
 	output [3:0] chs_power , // power  [cooler/heater] 
-	output       chs_mode    // model  [heat=1/cool=0]
+	output       chs_mode  , // model  [heat=1/cool=0]
 
-	output       pwm_data   // data  [output]
+	output       pwm_data    // data  [output]
 );
 
 	/* write your code here */

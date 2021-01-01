@@ -20,7 +20,7 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-module ActiveLights (
+module LampState (
 	input  [ 3:0] active_lights , // number of active light
 	output [15:0] lights_state    // state of lights is on
 );
