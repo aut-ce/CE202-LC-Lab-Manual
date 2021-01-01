@@ -23,11 +23,11 @@
 module PassCheckUnit (
 	input  [ 1:0] pass   , // input  [user   password]
 	input  [ 1:0] key    , // input  [system password]
-	output        equeal   // output [(pass==key) : 1]
+	output        equal    // output [(pass==key) : 1]
 );
 
 	/* write your code here */
-	
+	assign equal = (pass == key) ? 1'b1: 1'b0;
 	/* write your code here */
 
 endmodule

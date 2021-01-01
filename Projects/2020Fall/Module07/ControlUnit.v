@@ -20,19 +20,19 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-`define AAA 001
-`define BBB 010
-`define CCC 011
-`define DDD 100
-`define EEE 101
-`define FFF 111
+`define AAA 3'b001 // IDLE
+`define BBB 3'b010 // ACTIVE
+`define CCC 3'b011 // REQUEST
+`define DDD 3'b100 // STORE
+`define EEE 3'b101 // TRAP
+`define FFF 3'b111 // FFF
 
-`define STATE_IDLE    001
-`define STATE_ACTIVE  010
-`define STATE_REQUEST 011
-`define STATE_STORE   100
-`define STATE_TRAP    101
-`define STATE_OTHERS  111
+`define STATE_IDLE    3'b001
+`define STATE_ACTIVE  3'b010
+`define STATE_REQUEST 3'b011
+`define STATE_STORE   3'b100
+`define STATE_TRAP    3'b101
+`define STATE_OTHERS  3'b111
 
 
 module ControlUnit (
@@ -41,9 +41,10 @@ module ControlUnit (
 	input         request   , // request input (asynch) 
 	input         confirm   , // confirm input 
 	input  [ 1:0] password  , // password from user
-	input  [34:0] configin  , // data from memory unit
-	output [34:0] configout , // data into memory unit
-	output [ 1:0] write_en  , // conf mem write enable
+	input  [ 1:0] syskey    , // key  from memoty unit
+	input  [34:0] configin  , // conf from user
+	output [34:0] configout , // conf to memory unit
+	output        write_en  , // conf mem write enable
 	output [ 2:0] dbg_state   // current state (debug)
 	);
 
