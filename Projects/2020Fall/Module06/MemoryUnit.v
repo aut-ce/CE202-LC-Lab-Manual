@@ -27,7 +27,7 @@ module MemoryUnit (
 	input  [34:0] din  , // input  data
 	output [34:0] dout   // output data
 );
-
+    
 	/* write your code here */
 	
 	/* write your code here */
