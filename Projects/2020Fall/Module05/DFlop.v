@@ -16,17 +16,16 @@
 
 /*-----------------------------------------------------------
 ---  Module Name: Light Dance
----  Description: Module5
+---  Description: Module5:
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-module LightDance (
-	input        arst  , // async  reset
-	input        clk   , // clock  posedge
-	input        din   , // input  data
-	input        load  , // load   enable 
-	input  [7:0] pdata , // load   data
-	output [7:0] qdata   // output data
+module DFlop (
+	input  arst  , // async reset
+	input  clk   , // clock posedge
+	input  din   , // data  in
+	input  load  , // data  load 
+	output dout    // data  out
 );
 
 	/* write your code here */
