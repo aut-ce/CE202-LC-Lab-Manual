@@ -21,82 +21,72 @@
 `timescale 1 ns/1 ns
 
 module SmartHomeSystem (
-	input         arst      , // async  reset
-	input         clk,        // clock  posedge
-	input [31:0] tc_base,
-
-
-
-
-	output a 
+	input  arst      , // async  reset
+	input  clk       , // clock  posedge
+	input  request,
+	input  confirm,
+	input  gds_din   , // gas detector input
+	output [2:0 ] gds_dout   , // gas detector output
+	input  [ 1:0] password,
+	input  [34:0] confdata,
+	input  [31:0] tc_base,
+	input  [15:0] adc_data,
+	output [31:0] tempc,
+	input  [ 7:0] speed,
+	output [ 3:0] chs_power,
+	output        chs_mode,
+	output        pwm_data,
+	input  [ 3:0] tcode,
+	output [ 3:0] wshade,
+	output [ 3:0] lightnum,
+	output [15:0] lightstate,
+	input         dance_load,
+	output [ 7:0] dance_qdata,
+	output [ 2:0] dbg_state
 	);
 	
-	
-	wire [7:0] tc_ref;
-	wire [15:0] adc_data;
+	wire [ 7:0] tc_ref;
+	wire [ 7:0] chs_conf;
+	wire [ 3:0] ulight;
+	wire [ 3:0] lenght;
+	wire [ 7:0] dance_pdata;
+	wire        dance_din;
+	wire        mem_wren;
+	wire [34:0] mem_in;
+	wire [34:0] mem_out;
 
-	wire gas_in;
-	wire [2:0] gas_mode;
-	
-	wire [31:0] tempc;
-	wire [7:0] speed;
-	wire [7:0] chs_conf;
-	wire [3:0] chs_power;
-	wire chs_mode pwm_data;
-	
+	assign tc_ref = mem_out[7:0];
+	assign chs_conf = mem_out[15:8];
+	assign lenght = mem_out[23:20];
+	assign ulight = mem_out[19:16];
+	assign dance_din = mem_out[32];
+	assign dance_pdata = mem_out[31:24];
+	assign syskey = mem_out[34:33] ;
 
-	wire [3:0] tcode;
-	wire [3:0] ulight;
-	wire [3:0] lenght;
-	wire [3:0] wshade;
-	wire [3:0] lightnum;
-	wire [3:0] lightstate;
-
-	wire load;
-	wire [2:0] pdata;
-	wire [2:0] qdata;
-
-
-	wire wren;
-
-	wire request;
-	wire confirm;
-	wire [1:0] password;
-	wire [34:0] configin;
-	wire [34:0] configout;
-	wire [1:0] write_en;
-	wire [2:0] dbg_state;
-	
-	
-	TemperatureCalculator Module01 (
-		.tc_base (tc_base     ),
-		.tc_ref  (tc_ref      ),
-		.adc_data(adc_data    ),
-		.tempc   (tempc       )
-	);
-	assign tc_ref = memdata[7:0]; 
-
-	GasDetectorSensor Module02 (
-		.arst(arst),
-		.clk(clk),
-		.din(gas_in),
-		.dout(gas_mode)
+	TemperatureCalculator Module1 (
+	.tc_base (tc_base ),
+	.tc_ref  (tc_ref  ),
+	.adc_data(adc_data),
+	.tempc   (tempc   )
 	);
 
+	GasDetectorSensor Module2 (
+		.arst(arst), 
+		.clk(clk), 
+		.din(gds_din), 
+		.dout(gds_dout));
 
-
-	CoolHeatSystem Module03 (
+	CoolHeatSystem Module3 (
 		.arst     (arst     ),
 		.clk      (clk      ),
 		.speed    (speed    ),
-		.chs_mode (chs_mode ),
 		.chs_conf (chs_conf ),
 		.chs_power(chs_power),
+		.chs_mode (chs_mode ),
 		.pwm_data (pwm_data )
 	);
 
-
-	LightingSystem Module04 (
+	LightingSystem Module4 (
 		.tcode     (tcode     ),
 		.ulight    (ulight    ),
 		.lenght    (lenght    ),
@@ -105,42 +95,32 @@ module SmartHomeSystem (
 		.lightstate(lightstate)
 	);
 
-
-	
-	LightDance Module05 (
+	LightDance Module5 (
 		.arst(arst), 
 		.clk(clk), 
-		.din(din), 
-		.load(load), 
-		.pdata(pdata), 
-		.qdata(qdata)
-	);
+		.din(dance_din), 
+		.load(dance_load), 
+		.pdata(dance_pdata), 
+		.qdata(dance_qdata));
 
+	MemoryUnit Module6 (
+		.arst(arst),
+		.clk(clk),
+		.wren(mem_wren),
+		.din(mem_in),
+		.dout(mem_out));
 
-
-	MemoryUnit Module06 (
-		.arst(arst), 
-		.clk(clk), 
-		.wren(wren), 
-		.din(din), 
-		.dout(dout)
-	);
-
-
-
-	ControlUnit Module07 (
+	ControlUnit Module7 (
 		.arst     (arst     ),
 		.clk      (clk      ),
 		.request  (request  ),
 		.confirm  (confirm  ),
 		.password (password ),
-		.configin (configin ),
-		.configout(configout),
-		.write_en (write_en ),
+		.syskey   (syskey   ),
+		.configin (confdata ),
+		.configout(mem_in   ),
+		.write_en (mem_wren ),
 		.dbg_state(dbg_state)
 	);
-
-
-
 
 endmodule
