@@ -54,6 +54,7 @@ module SmartHomeSystem (
 	wire        mem_wren;
 	wire [34:0] mem_in;
 	wire [34:0] mem_out;
+	wire [ 1:0] syskey;
 
 	assign tc_ref = mem_out[7:0];
 	assign chs_conf = mem_out[15:8];
