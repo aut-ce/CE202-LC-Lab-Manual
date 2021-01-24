@@ -28,6 +28,7 @@ reg [1:0] A;
 reg [1:0] B;
 reg [1:0] sel;
 wire [3:0] Y;
+
 	alu test_alu (.A(A), .B(B), .sel(sel), .Y(Y));
 
 	initial 

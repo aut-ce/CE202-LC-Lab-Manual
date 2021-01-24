@@ -22,7 +22,7 @@
 
 module encoder4x2 (
 	input [3:0] din ,
-	output [1:0] qout,	
+	output [1:0] qout	
 );
 	/* write your code here */
 	

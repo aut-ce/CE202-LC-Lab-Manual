@@ -21,7 +21,7 @@
 `timescale 1 ns/1 ns
 
 
-module tb_decoder2x4 ();
+module tb_multiplexer ();
 
 wire [3:0] w;
 wire [1:0] sel;

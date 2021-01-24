@@ -25,7 +25,7 @@ module function4x1 (
 	input b ,
 	input c ,
 	input d ,
-	output f,	
+	output f
 );
 	/* write your code here */
 	

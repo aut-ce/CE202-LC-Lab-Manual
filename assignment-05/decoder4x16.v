@@ -23,7 +23,7 @@
 module decoder4x16 (
 	input [3:0] in ,
 	input 		en ,
-	output [15:0] dout,	
+	output [15:0] dout
 );
 	/* write your code here */
 	

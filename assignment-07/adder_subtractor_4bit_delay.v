@@ -23,9 +23,9 @@
 module adder_subtractor_4bit_delay (
 	input [3:0] A ,
 	input [3:0] B ,
-	input 		sel , // 0: add, 1: subtract
+	input sel , // 0: add, 1: subtract
 	output [3:0] S ,
-	output 		cout
+	output cout
 );
 
 	/* write your code here */
