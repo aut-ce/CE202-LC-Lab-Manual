@@ -15,5 +15,6 @@
 
 [:mortar_board:naha7789](https://github.com/naha7789), Fall, 2019
 
+[:mortar_board:alimpk](https://github.com/alimpk), Fall, 2020
 <!-- add yours above line -->
 
