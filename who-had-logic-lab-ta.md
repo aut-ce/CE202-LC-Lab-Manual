@@ -23,6 +23,8 @@
 
 [:mortar_board:alimpk](https://github.com/alimpk), Ali Mohammadpour, Laboratory Instructor
 
+[:mortar_board:alisoveizi13](https://github.com/alisoveizi13), Ali Soveizi, Laboratory Instructor
+
 [:mortar_board:alirezab16](https://github.com/alirezab16), Alireza Borhani, Laboratory Instructor
 
 <!-- add yours above line -->
