@@ -20,3 +20,5 @@
 [:mortar_board:Farshid Nooshi](https://github.com/FarshidNooshi), Fall, 2020
 <!-- add yours above line -->
 
+[:mortar_board:Sarvenaz Sarvghad](https://github.com/sarvenaz-srv), Fall, 2020
+
