@@ -17,6 +17,10 @@
 
 [:mortar_board:alimpk](https://github.com/alimpk), Fall, 2020
 
+[:mortar_board:Farshid Nooshi](https://github.com/FarshidNooshi), Fall, 2020
+
 [:mortar_board:SepehrMoghishe](https://github.com/sepehrmoghiseh), Fall, 2020
 <!-- add yours above line -->
+
+[:mortar_board:Sarvenaz Sarvghad](https://github.com/sarvenaz-srv), Fall, 2020
 
