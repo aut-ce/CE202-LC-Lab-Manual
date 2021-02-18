@@ -25,6 +25,8 @@
 
 [:mortar_board:AmirMohammad Babaee](https://github.com/AmirMohamadBabaee), Fall, 2020
 
+[:mortar_board:Majid Nami](https://github.com/MajidNami), Fall, 2020
+
 
 <!-- add yours above line -->
 
