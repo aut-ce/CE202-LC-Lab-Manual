@@ -17,6 +17,8 @@
 
 [:mortar_board:naha7789](https://github.com/naha7789), Fall, 2019
 
+[:mortar_board:alimpk](https://github.com/alimpk), Fall, 2020
+
 [:mortar_board:Farshid Nooshi](https://github.com/FarshidNooshi), Fall, 2020
 
 [:mortar_board:SepehrMoghishe](https://github.com/sepehrmoghiseh), Fall, 2020
@@ -29,6 +31,6 @@
 
 [:mortar_board:Amirhossein Najafizadeh](https://github.com/amirhnajafiz), Fall, 2020
 
+[:mortar_board:Roham-H](https://github.com/Roham-H), Fall, 2020
 
 <!-- add yours above line -->
-
