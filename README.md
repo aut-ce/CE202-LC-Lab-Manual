@@ -45,4 +45,4 @@ AUT Logic Circuits Laboratory Material and Template Sources
 [7] after passing the course, add your id and semester in last line of [**who-know-logic-lab.md**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/who-know-logic-lab.md) file by pull request.
 
 ## Teaching Assistants and Lab Instructors over Semesters
-Dear Laboratory instructor, you can add your name and semester in [**who-had-logic-lab-ta.md**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/who-had-logic-lab-ta.md) file by pull request or add issue.
+Dear Laboratory instructor, you can add your name and semester in [**who-had-logic-lab-ta.md**](https://github.com/aut-ce/CE202-LC-Lab-Manual/tree/main/who-had-logic-lab-ta.md) file by pull request or create new issue.
