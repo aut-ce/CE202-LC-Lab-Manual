@@ -1,0 +1,22 @@
+ISim log file
+Running: /home/reza/Desktop/ParityBit/SOP_ParityGenerator_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/reza/Desktop/ParityBit/SOP_ParityGenerator_TB_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Data: 000, Parity: 1
+Data: 001, Parity: 0
+Data: 010, Parity: 0
+Data: 011, Parity: 1
+Data: 100, Parity: 0
+Data: 101, Parity: 1
+Data: 110, Parity: 1
+Data: 111, Parity: 0
+Stopped at time : 80 ns : File "/home/reza/Desktop/ParityBit/SOP_ParityGenerator_TB.v" Line 51
+# exit 0
+# exit 0

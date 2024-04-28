@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sat Nov 11 17:51:51 2023
+# Process ID: 36969
+# Log file: /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/planAhead_run_4/planAhead.log
+# Journal file: /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P182 [get_ports {sel[1]}]
+endgroup
+startgroup
+set_property package_pin P183 [get_ports {sel[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {w_in[3]}]]
+startgroup
+set_property package_pin P171 [get_ports {w_in[1]}]
+endgroup
+startgroup
+set_property package_pin P169 [get_ports {w_in[2]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {w_in[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {w_in[0]}]]
+set_property package_pin "" [get_ports [list  {w_in[1]}]]
+startgroup
+set_property package_pin P171 [get_ports {w_in[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {w_in[2]}]]
+set_property package_pin "" [get_ports [list  {w_in[3]}]]
+startgroup
+set_property package_pin P169 [get_ports {w_in[1]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {w_in[2]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {w_in[3]}]
+endgroup
+startgroup
+set_property package_pin P42 [get_ports y]
+endgroup
+save_constraints

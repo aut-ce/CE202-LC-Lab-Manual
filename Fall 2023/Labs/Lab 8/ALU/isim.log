@@ -1,0 +1,12 @@
+ISim log file
+Running: /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 8/ALU/tb_alu_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 8/ALU/tb_alu_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 80 ns : File "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 8/tb_alu.v" Line 58
+# exit 0

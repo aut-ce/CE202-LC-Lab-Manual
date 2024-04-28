@@ -1,0 +1,15 @@
+ISim log file
+Running: /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 5/tb_function_with_dec4x16_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 5/tb_function_with_dec4x16_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim2.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# exit 0
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 5.00us
+# exit 0
+# exit 0

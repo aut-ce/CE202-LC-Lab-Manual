@@ -1,0 +1,8 @@
+[Inputs]
+=data[2:0]=
+[Outputs]
+parity
+[BiDir]
+[ATTRIBUTES]
+VeriModel ParityGenerator
+

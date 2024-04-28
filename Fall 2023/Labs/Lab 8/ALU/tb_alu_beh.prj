@@ -1,0 +1,4 @@
+verilog work "../multiplexer4x4.v"
+verilog work "../alu.v"
+verilog work "../tb_alu.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

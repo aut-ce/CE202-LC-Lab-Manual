@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/function_with_dec4x16.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/function_with_dec4x16.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "function_with_dec4x16.ngc" function_with_dec4x16.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o function_with_dec4x16_map.ncd function_with_dec4x16.ngd function_with_dec4x16.pcf 
+par -w -intstyle ise -ol high -t 1 function_with_dec4x16_map.ncd function_with_dec4x16.ncd function_with_dec4x16.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml function_with_dec4x16.twx function_with_dec4x16.ncd -o function_with_dec4x16.twr function_with_dec4x16.pcf 
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/function_with_dec4x16.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/function_with_dec4x16.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "function_with_dec4x16.ngc" function_with_dec4x16.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o function_with_dec4x16_map.ncd function_with_dec4x16.ngd function_with_dec4x16.pcf 
+par -w -intstyle ise -ol high -t 1 function_with_dec4x16_map.ncd function_with_dec4x16.ncd function_with_dec4x16.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml function_with_dec4x16.twx function_with_dec4x16.ncd -o function_with_dec4x16.twr function_with_dec4x16.pcf 
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/function_with_dec4x16.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/function_with_dec4x16.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "function_with_dec4x16.ngc" function_with_dec4x16.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o function_with_dec4x16_map.ncd function_with_dec4x16.ngd function_with_dec4x16.pcf 
+par -w -intstyle ise -ol high -t 1 function_with_dec4x16_map.ncd function_with_dec4x16.ncd function_with_dec4x16.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml function_with_dec4x16.twx function_with_dec4x16.ncd -o function_with_dec4x16.twr function_with_dec4x16.pcf 
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/function_with_dec4x16.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/function_with_dec4x16.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "function_with_dec4x16.ngc" function_with_dec4x16.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o function_with_dec4x16_map.ncd function_with_dec4x16.ngd function_with_dec4x16.pcf 
+par -w -intstyle ise -ol high -t 1 function_with_dec4x16_map.ncd function_with_dec4x16.ncd function_with_dec4x16.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml function_with_dec4x16.twx function_with_dec4x16.ncd -o function_with_dec4x16.twr function_with_dec4x16.pcf 

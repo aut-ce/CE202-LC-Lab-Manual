@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/reza/Desktop/ParityBit/ParityGenerator_TB.xst" -ofn "/home/reza/Desktop/ParityBit/ParityGenerator_TB.syr" 
+xst -intstyle ise -ifn "/home/reza/Desktop/ParityBit/ParityGenerator_TB.xst" -ofn "/home/reza/Desktop/ParityBit/ParityGenerator_TB.syr" 

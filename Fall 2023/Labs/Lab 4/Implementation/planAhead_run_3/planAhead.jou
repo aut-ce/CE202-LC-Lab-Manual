@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sat Nov  4 18:38:27 2023
+# Process ID: 18719
+# Log file: /home/reza/Desktop/Implementation/planAhead_run_3/planAhead.log
+# Journal file: /home/reza/Desktop/Implementation/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/reza/Desktop/Implementation/pa.fromNetlist.tcl

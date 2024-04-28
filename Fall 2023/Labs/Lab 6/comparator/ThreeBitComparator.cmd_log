@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 6/comparator/ThreeBitComparator.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 6/comparator/ThreeBitComparator.syr" 

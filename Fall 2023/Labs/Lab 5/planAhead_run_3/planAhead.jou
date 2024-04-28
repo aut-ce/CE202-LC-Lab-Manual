@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sat Nov 11 17:32:41 2023
+# Process ID: 35988
+# Log file: /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/planAhead_run_3/planAhead.log
+# Journal file: /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P190 [get_ports en]
+endgroup
+save_constraints

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="45" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 15: <arg fmt="%s" index="1">Q</arg> is not a function
+</msg>
+
+<msg type="error" file="HDLCompiler" num="24" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 15: <arg fmt="%s" index="1">Q</arg> expects <arg fmt="%d" index="2">0</arg> arguments
+</msg>
+
+<msg type="error" file="HDLCompiler" num="45" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 16: <arg fmt="%s" index="1">Q</arg> is not a function
+</msg>
+
+<msg type="error" file="HDLCompiler" num="24" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 16: <arg fmt="%s" index="1">Q</arg> expects <arg fmt="%d" index="2">0</arg> arguments
+</msg>
+
+<msg type="error" file="HDLCompiler" num="483" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 18: Illegal expression in target
+</msg>
+
+<msg type="error" file="HDLCompiler" num="45" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 18: <arg fmt="%s" index="1">Q</arg> is not a function
+</msg>
+
+<msg type="error" file="HDLCompiler" num="445" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 18: Function call <arg fmt="%s" index="1">Q</arg> is not allowed here
+</msg>
+
+<msg type="error" file="HDLCompiler" num="24" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 18: <arg fmt="%s" index="1">Q</arg> expects <arg fmt="%d" index="2">0</arg> arguments
+</msg>
+
+<msg type="error" file="HDLCompiler" num="45" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 19: <arg fmt="%s" index="1">Q</arg> is not a function
+</msg>
+
+<msg type="error" file="HDLCompiler" num="445" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 19: Function call <arg fmt="%s" index="1">Q</arg> is not allowed here
+</msg>
+
+<msg type="error" file="HDLCompiler" num="24" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 19: <arg fmt="%s" index="1">Q</arg> expects <arg fmt="%d" index="2">0</arg> arguments
+</msg>
+
+<msg type="error" file="HDLCompiler" num="483" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 20: Illegal expression in target
+</msg>
+
+<msg type="error" file="HDLCompiler" num="45" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 20: <arg fmt="%s" index="1">Q</arg> is not a function
+</msg>
+
+<msg type="error" file="HDLCompiler" num="445" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 20: Function call <arg fmt="%s" index="1">Q</arg> is not allowed here
+</msg>
+
+<msg type="error" file="HDLCompiler" num="24" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 20: <arg fmt="%s" index="1">Q</arg> expects <arg fmt="%d" index="2">0</arg> arguments
+</msg>
+
+<msg type="error" file="HDLCompiler" num="45" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 22: <arg fmt="%s" index="1">Q</arg> is not a function
+</msg>
+
+<msg type="error" file="HDLCompiler" num="24" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 22: <arg fmt="%s" index="1">Q</arg> expects <arg fmt="%d" index="2">0</arg> arguments
+</msg>
+
+<msg type="error" file="HDLCompiler" num="45" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 23: <arg fmt="%s" index="1">Q</arg> is not a function
+</msg>
+
+<msg type="error" file="HDLCompiler" num="24" delta="unknown" >"/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/counter.v" Line 23: <arg fmt="%s" index="1">Q</arg> expects <arg fmt="%d" index="2">0</arg> arguments
+</msg>
+
+</messages>
+

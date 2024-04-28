@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/tb_counter_isim_beh.exe" -prj "/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/tb_counter_beh.prj" "work.tb_counter" "work.glbl" 

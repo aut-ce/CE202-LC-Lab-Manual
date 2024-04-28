@@ -1,0 +1,5 @@
+verilog isim_temp "../full_adder_delay.v"
+verilog isim_temp "../add_sub_delay.v"
+verilog isim_temp "../adder_subtractor_4bit_delay.v"
+verilog isim_temp "../tb_adder_subtractor_4bit_delay.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

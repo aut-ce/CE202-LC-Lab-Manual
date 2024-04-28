@@ -1,0 +1,5 @@
+set -tmpdir "/home/reza/Desktop/ParityBit/xst/projnav.tmp"
+set -xsthdpdir "/home/reza/Desktop/ParityBit/xst"
+elaborate
+-ifn ParityGenerator.prj
+-ifmt mixed

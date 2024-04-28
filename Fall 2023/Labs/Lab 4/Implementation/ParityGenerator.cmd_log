@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "/home/reza/Desktop/Implementation/ParityGenerator.xst" -ofn "/home/reza/Desktop/Implementation/ParityGenerator.syr" 
+xst -intstyle ise -ifn "/home/reza/Desktop/Implementation/ParityGenerator.xst" -ofn "/home/reza/Desktop/Implementation/ParityGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 ParityGenerator.ngc ParityGenerator.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ParityGenerator_map.ncd ParityGenerator.ngd ParityGenerator.pcf 
+par -w -intstyle ise -ol high -t 1 ParityGenerator_map.ncd ParityGenerator.ncd ParityGenerator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ParityGenerator.twx ParityGenerator.ncd -o ParityGenerator.twr ParityGenerator.pcf 
+bitgen -intstyle ise -f ParityGenerator.ut ParityGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ParityGenerator.ucf -p xc3s400-pq208-5 ParityGenerator.ngc ParityGenerator.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ParityGenerator_map.ncd ParityGenerator.ngd ParityGenerator.pcf 
+par -w -intstyle ise -ol high -t 1 ParityGenerator_map.ncd ParityGenerator.ncd ParityGenerator.pcf 
+bitgen -intstyle ise -f ParityGenerator.ut ParityGenerator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ParityGenerator.ucf -p xc3s400-pq208-5 ParityGenerator.ngc ParityGenerator.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ParityGenerator_map.ncd ParityGenerator.ngd ParityGenerator.pcf 
+par -w -intstyle ise -ol high -t 1 ParityGenerator_map.ncd ParityGenerator.ncd ParityGenerator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ParityGenerator.twx ParityGenerator.ncd -o ParityGenerator.twr ParityGenerator.pcf -ucf ParityGenerator.ucf 
+bitgen -intstyle ise -f ParityGenerator.ut ParityGenerator.ncd 

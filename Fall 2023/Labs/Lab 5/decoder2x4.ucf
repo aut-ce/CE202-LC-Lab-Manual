@@ -1,0 +1,7 @@
+NET "sel[1]" LOC = P182;
+NET "sel[0]" LOC = P183;
+NET "w_in[0]" LOC = P171;
+NET "w_in[1]" LOC = P169;
+NET "w_in[2]" LOC = P168;
+NET "w_in[3]" LOC = P167;
+NET "y" LOC = P42;

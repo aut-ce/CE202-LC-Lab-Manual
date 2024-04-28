@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/reza/Desktop/Implementation/ParityGenerator.ncd
+OUTFILE=/home/reza/Desktop/Implementation/ParityGenerator.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=/home/reza/Desktop/Implementation
+LICENSE=WebPack
+USER_INFO=__0_0_0

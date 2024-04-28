@@ -1,0 +1,4 @@
+verilog work "decoder2x4.v"
+verilog work "decoder4x16.v"
+verilog work "Decoder4x16 and function/function_with_dec4x16.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

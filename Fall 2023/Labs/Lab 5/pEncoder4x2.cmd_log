@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/pEncoder4x2.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/pEncoder4x2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "pEncoder4x2.ngc" pEncoder4x2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o pEncoder4x2_map.ncd pEncoder4x2.ngd pEncoder4x2.pcf 
+par -w -intstyle ise -ol high -t 1 pEncoder4x2_map.ncd pEncoder4x2.ncd pEncoder4x2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pEncoder4x2.twx pEncoder4x2.ncd -o pEncoder4x2.twr pEncoder4x2.pcf 
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/pEncoder4x2.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/pEncoder4x2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pEncoder4x2.ucf -p xc3s400-pq208-5 "pEncoder4x2.ngc" pEncoder4x2.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o pEncoder4x2_map.ncd pEncoder4x2.ngd pEncoder4x2.pcf 
+par -w -intstyle ise -ol high -t 1 pEncoder4x2_map.ncd pEncoder4x2.ncd pEncoder4x2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pEncoder4x2.twx pEncoder4x2.ncd -o pEncoder4x2.twr pEncoder4x2.pcf -ucf pEncoder4x2.ucf 
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/pEncoder4x2.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/pEncoder4x2.syr" 

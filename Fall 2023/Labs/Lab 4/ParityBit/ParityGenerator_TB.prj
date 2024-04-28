@@ -1,0 +1,2 @@
+verilog work "ParityGenerator.v"
+verilog work "ParityGenerator_TB.v"

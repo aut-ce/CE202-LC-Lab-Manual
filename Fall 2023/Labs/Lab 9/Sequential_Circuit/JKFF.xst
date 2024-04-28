@@ -1,0 +1,5 @@
+set -tmpdir "/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/xst/projnav.tmp"
+set -xsthdpdir "/mnt/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 9/Sequential_Circuit/xst"
+elaborate
+-ifn JKFF.prj
+-ifmt mixed

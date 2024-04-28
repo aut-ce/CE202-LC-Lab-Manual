@@ -1,0 +1,2 @@
+verilog work "decoder2x4.v"
+verilog work "decoder4x16.v"

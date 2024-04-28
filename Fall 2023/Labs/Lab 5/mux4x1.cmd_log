@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/mux4x1.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/mux4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "mux4x1.ngc" mux4x1.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o mux4x1_map.ncd mux4x1.ngd mux4x1.pcf 
+par -w -intstyle ise -ol high -t 1 mux4x1_map.ncd mux4x1.ncd mux4x1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux4x1.twx mux4x1.ncd -o mux4x1.twr mux4x1.pcf 
+xst -intstyle ise -ifn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/mux4x1.xst" -ofn "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/mux4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc decoder2x4.ucf -p xc3s400-pq208-5 "mux4x1.ngc" mux4x1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc decoder2x4.ucf -p xc3s400-pq208-5 "mux4x1.ngc" mux4x1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux4x1.ucf -p xc3s400-pq208-5 "mux4x1.ngc" mux4x1.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o mux4x1_map.ncd mux4x1.ngd mux4x1.pcf 
+par -w -intstyle ise -ol high -t 1 mux4x1_map.ncd mux4x1.ncd mux4x1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux4x1.ucf -p xc3s400-pq208-5 "mux4x1.ngc" mux4x1.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o mux4x1_map.ncd mux4x1.ngd mux4x1.pcf 
+par -w -intstyle ise -ol high -t 1 mux4x1_map.ncd mux4x1.ncd mux4x1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux4x1.twx mux4x1.ncd -o mux4x1.twr mux4x1.pcf -ucf mux4x1.ucf 
+bitgen -intstyle ise -f mux4x1.ut mux4x1.ncd 

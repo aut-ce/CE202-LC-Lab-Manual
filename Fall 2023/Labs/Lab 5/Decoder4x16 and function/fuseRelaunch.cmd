@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/reza/Desktop/test/tb_function_with_dec4x16_isim_beh.exe" -prj "/home/reza/Desktop/test/tb_function_with_dec4x16_beh.prj" "work.tb_function_with_dec4x16" "work.glbl" 

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/reza/Desktop/Implementation/SOP_ParityGenerator.xst" -ofn "/home/reza/Desktop/Implementation/SOP_ParityGenerator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ParityGenerator.ucf -p xc3s400-pq208-5 SOP_ParityGenerator.ngc SOP_ParityGenerator.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o SOP_ParityGenerator_map.ncd SOP_ParityGenerator.ngd SOP_ParityGenerator.pcf 
+par -w -intstyle ise -ol high -t 1 SOP_ParityGenerator_map.ncd SOP_ParityGenerator.ncd SOP_ParityGenerator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SOP_ParityGenerator.twx SOP_ParityGenerator.ncd -o SOP_ParityGenerator.twr SOP_ParityGenerator.pcf -ucf ParityGenerator.ucf 
+bitgen -intstyle ise -f SOP_ParityGenerator.ut SOP_ParityGenerator.ncd 

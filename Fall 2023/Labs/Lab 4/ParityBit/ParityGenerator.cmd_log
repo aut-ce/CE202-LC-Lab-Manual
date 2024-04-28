@@ -1,0 +1,3 @@
+vhdtdtfi -lib work /home/reza/Desktop/ParityBit/ParityGenerator.v -lang verilog -prj ParityBit -o ParityGenerator.spl -module ParityGenerator -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 ParityGenerator.spl /home/reza/Desktop/ParityBit/ParityGenerator.sym 
+vhdtdtfi -lang verilog -prj ParityBit -o /home/reza/Desktop/ParityBit/ParityGenerator.tfi -lib work /home/reza/Desktop/ParityBit//ParityGenerator.v -module ParityGenerator -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

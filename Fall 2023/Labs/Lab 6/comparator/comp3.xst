@@ -1,0 +1,5 @@
+set -tmpdir "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 6/comparator/xst/projnav.tmp"
+set -xsthdpdir "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 6/comparator/xst"
+elaborate
+-ifn comp3.prj
+-ifmt mixed

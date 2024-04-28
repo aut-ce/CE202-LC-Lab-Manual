@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="test.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder4x16.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decoder4x16.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decoder4x16.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="function_with_dec4x16.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="function_with_dec4x16.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="function_with_dec4x16.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_decoder4x16_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_decoder4x16_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_decoder4x16_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_function_with_dec4x16_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_function_with_dec4x16_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_function_with_dec4x16_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1699715763" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1699715763">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699717434" xil_pn:in_ck="-950443258538071710" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1699717433">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="decoder2x4.v"/>
+      <outfile xil_pn:name="decoder4x16.v"/>
+      <outfile xil_pn:name="function_with_dec4x16.v"/>
+      <outfile xil_pn:name="tb_decoder4x16.v"/>
+      <outfile xil_pn:name="tb_function_with_dec4x16.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1699717048" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6914823071909861397" xil_pn:start_ts="1699717048">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699717048" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-9149141503948989021" xil_pn:start_ts="1699717048">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699717048" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6612842468023836083" xil_pn:start_ts="1699717048">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699717434" xil_pn:in_ck="-950443258538071710" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1699717434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="decoder2x4.v"/>
+      <outfile xil_pn:name="decoder4x16.v"/>
+      <outfile xil_pn:name="function_with_dec4x16.v"/>
+      <outfile xil_pn:name="tb_decoder4x16.v"/>
+      <outfile xil_pn:name="tb_function_with_dec4x16.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1699717435" xil_pn:in_ck="-950443258538071710" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3160424615201295822" xil_pn:start_ts="1699717434">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_function_with_dec4x16_beh.prj"/>
+      <outfile xil_pn:name="tb_function_with_dec4x16_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1699717436" xil_pn:in_ck="3994689014790251811" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="311443785743430325" xil_pn:start_ts="1699717435">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_function_with_dec4x16_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

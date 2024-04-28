@@ -1,0 +1,25 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/reza/Desktop/test/tb_function_with_dec4x16_isim_beh.exe -prj /home/reza/Desktop/test/tb_function_with_dec4x16_beh.prj work.tb_function_with_dec4x16 work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/reza/Desktop/test/decoder2x4.v" into library work
+Analyzing Verilog file "/home/reza/Desktop/test/decoder4x16.v" into library work
+Analyzing Verilog file "/home/reza/Desktop/test/function_with_dec4x16.v" into library work
+Analyzing Verilog file "/home/reza/Desktop/test/tb_function_with_dec4x16.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 84804 KB
+Fuse CPU Usage: 1200 ms
+Compiling module decoder2x4
+Compiling module decoder4x16
+Compiling module function_with_dec4x16
+Compiling module tb_function_with_dec4x16
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 5 Verilog Units
+Built simulation executable /home/reza/Desktop/test/tb_function_with_dec4x16_isim_beh.exe
+Fuse Memory Usage: 1693628 KB
+Fuse CPU Usage: 1220 ms
+GCC CPU Usage: 570 ms

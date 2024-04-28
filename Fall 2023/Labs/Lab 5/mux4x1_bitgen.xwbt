@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/mux4x1.ncd
+OUTFILE=/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5/mux4x1.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab5
+LICENSE=WebPack
+USER_INFO=__0_0_0

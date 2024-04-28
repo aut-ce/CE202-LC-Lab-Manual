@@ -1,0 +1,28 @@
+Command line:
+   tb_adder_subtractor_4bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59095
+
+Sun Dec  3 16:59:15 2023
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 187.9 Meg
+
+ Total Signals          : 145
+ Total Nets             : 71
+ Total Signal Drivers   : 51
+ Total Blocks           : 20
+ Total Primitive Blocks : 9
+ Total Processes        : 53
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 160
+
+ Total Simulation Time: 0.06 sec
+
+ Current Memory Usage: 263.401 Meg
+
+Sun Dec  3 17:00:43 2023
+

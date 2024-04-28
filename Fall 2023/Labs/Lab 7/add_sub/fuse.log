@@ -1,0 +1,26 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/tb_adder_subtractor_4bit_delay_isim_beh.exe -prj /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/tb_adder_subtractor_4bit_delay_beh.prj work.tb_adder_subtractor_4bit_delay work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/../full_adder_delay.v" into library work
+Analyzing Verilog file "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/../add_sub_delay.v" into library work
+Analyzing Verilog file "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/../adder_subtractor_4bit_delay.v" into library work
+Analyzing Verilog file "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/../tb_adder_subtractor_4bit_delay.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 84808 KB
+Fuse CPU Usage: 870 ms
+Compiling module full_adder_delay
+Compiling module add_sub_delay
+Compiling module adder_subtractor_4bit_delay
+Compiling module tb_adder_subtractor_4bit_delay
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/tb_adder_subtractor_4bit_delay_isim_beh.exe
+Fuse Memory Usage: 1693588 KB
+Fuse CPU Usage: 890 ms
+GCC CPU Usage: 270 ms

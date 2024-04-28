@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ParityBit.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ParityGenerator.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="ParityGenerator.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ParityGenerator.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ParityGenerator.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="ParityGenerator.tfi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ParityGenerator.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ParityGenerator_TB.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ParityGenerator_TB.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ParityGenerator_TB.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ParityGenerator_TB.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ParityGenerator_TB.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ParityGenerator_TB.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ParityGenerator_TB_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ParityGenerator_TB_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ParityGenerator_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ParityGenerator_TB_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ParityGenerator_TB_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SOP_ParityGenerator.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SOP_ParityGenerator.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="SOP_ParityGenerator.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SOP_ParityGenerator_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SOP_ParityGenerator_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SOP_ParityGenerator_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SOP_ParityGenerator_TB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SOP_ParityGenerator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SOP_ParityGenerator_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1699107050" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="1321705353062746803" xil_pn:start_ts="1699107050">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699105039" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1699105039">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699105767" xil_pn:in_ck="-61021932100128868" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1699105767">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ParityGenerator.v"/>
+      <outfile xil_pn:name="ParityGenerator_TB.v"/>
+      <outfile xil_pn:name="SOP_ParityGenerator.v"/>
+      <outfile xil_pn:name="SOP_ParityGenerator_TB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1699105003" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3487075410406212349" xil_pn:start_ts="1699105003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699105003" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5589083972272266421" xil_pn:start_ts="1699105003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699101012" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1178402916996511491" xil_pn:start_ts="1699101012">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699105114" xil_pn:in_ck="-61021932100128868" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1699105114">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ParityGenerator.v"/>
+      <outfile xil_pn:name="ParityGenerator_TB.v"/>
+      <outfile xil_pn:name="SOP_ParityGenerator.v"/>
+      <outfile xil_pn:name="SOP_ParityGenerator_TB.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1699105115" xil_pn:in_ck="-61021932100128868" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="277367509011145174" xil_pn:start_ts="1699105114">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SOP_ParityGenerator_TB_beh.prj"/>
+      <outfile xil_pn:name="SOP_ParityGenerator_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1699105331" xil_pn:in_ck="5125905984191509145" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1331684058286988761" xil_pn:start_ts="1699105331">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SOP_ParityGenerator_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1699106922" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1699106922">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699106922" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-9192492502694291772" xil_pn:start_ts="1699106922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699106922" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1178402916996511491" xil_pn:start_ts="1699106922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699106922" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1699106922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699106922" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2547861845232217612" xil_pn:start_ts="1699106922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699106922" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249795389316" xil_pn:start_ts="1699106922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699106922" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8017539310049296883" xil_pn:start_ts="1699106922">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1699107060" xil_pn:in_ck="215893566348435602" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-3880891966486368745" xil_pn:start_ts="1699107057">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="ParityGenerator_TB.lso"/>
+      <outfile xil_pn:name="ParityGenerator_TB.prj"/>
+      <outfile xil_pn:name="ParityGenerator_TB.syr"/>
+      <outfile xil_pn:name="ParityGenerator_TB.xst"/>
+      <outfile xil_pn:name="ParityGenerator_TB_stx_beh.prj"/>
+      <outfile xil_pn:name="ParityGenerator_TB_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1699106925" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2634899335897135945" xil_pn:start_ts="1699106925">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

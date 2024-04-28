@@ -1,0 +1,5 @@
+set -tmpdir "/home/reza/Desktop/test/xst/projnav.tmp"
+set -xsthdpdir "/home/reza/Desktop/test/xst"
+elaborate
+-ifn function_with_dec4x16.prj
+-ifmt mixed

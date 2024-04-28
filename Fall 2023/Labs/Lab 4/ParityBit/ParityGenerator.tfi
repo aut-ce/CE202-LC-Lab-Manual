@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+ParityGenerator instance_name (
+    .data(data), 
+    .parity(parity)
+    );
+
+

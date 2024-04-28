@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/reza/Desktop/ParityBit/SOP_ParityGenerator_TB_isim_beh.exe -prj /home/reza/Desktop/ParityBit/SOP_ParityGenerator_TB_beh.prj work.SOP_ParityGenerator_TB work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/reza/Desktop/ParityBit/SOP_ParityGenerator.v" into library work
+Analyzing Verilog file "/home/reza/Desktop/ParityBit/SOP_ParityGenerator_TB.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 84752 KB
+Fuse CPU Usage: 890 ms
+Compiling module SOP_ParityGenerator
+Compiling module SOP_ParityGenerator_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable /home/reza/Desktop/ParityBit/SOP_ParityGenerator_TB_isim_beh.exe
+Fuse Memory Usage: 1693684 KB
+Fuse CPU Usage: 900 ms
+GCC CPU Usage: 230 ms

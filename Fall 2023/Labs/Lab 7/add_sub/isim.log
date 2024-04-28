@@ -1,0 +1,12 @@
+ISim log file
+Running: /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/tb_adder_subtractor_4bit_delay_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/add_sub/tb_adder_subtractor_4bit_delay_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 70 ns : File "/media/reza/9636D17436D15639/University/Ta/Logic Circuit Lab/Fall 2023/Labs/Lab 7/tb_adder_subtractor_4bit_delay.v" Line 53
+# exit 0

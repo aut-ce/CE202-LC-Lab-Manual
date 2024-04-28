@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Nov 11 17:57:25 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "w_in<0>" LOCATE = SITE "P171" LEVEL 1;
+COMP "w_in<1>" LOCATE = SITE "P169" LEVEL 1;
+COMP "w_in<2>" LOCATE = SITE "P168" LEVEL 1;
+COMP "w_in<3>" LOCATE = SITE "P167" LEVEL 1;
+COMP "sel<0>" LOCATE = SITE "P183" LEVEL 1;
+COMP "y" LOCATE = SITE "P42" LEVEL 1;
+COMP "sel<1>" LOCATE = SITE "P182" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Nov 04 17:54:45 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "data<0>" LOCATE = SITE "P183" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "P182" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "P181" LEVEL 1;
+COMP "parity" LOCATE = SITE "P42" LEVEL 1;
+SCHEMATIC END;
+
