@@ -1,0 +1,19 @@
+\contentsline {section}{{\fehrestContent نکات قابل توجه}}{2}{section*.1}%
+\contentsline {section}{{\fehrestContent مقدمه}}{3}{section*.2}%
+\contentsline {section}{{\fehrestContent بخش‌های اصلی}}{4}{section*.3}%
+\contentsline {subsection}{{\fehrestContent شبکه چیست؟}}{4}{section*.4}%
+\contentsline {subsection}{{\fehrestContent بانک}}{4}{section*.5}%
+\contentsline {subsection}{{\fehrestContent کیف پول}}{5}{section*.6}%
+\contentsline {subsection}{{\fehrestContent پشتیبانی}}{6}{section*.7}%
+\contentsline {subsection}{{\fehrestContent مزایده}}{6}{section*.8}%
+\contentsline {subsection}{{\fehrestContent خرید و فروش فایل}}{6}{section*.9}%
+\contentsline {subsection}{{\fehrestContent ارسال خرید}}{7}{section*.10}%
+\contentsline {subsection}{{\fehrestContent توکن}}{7}{section*.11}%
+\contentsline {section}{{\fehrestContent بخش‌های امتیازی}}{8}{section*.12}%
+\contentsline {subsection}{{\fehrestContent وضعیت کاربران}}{8}{section*.13}%
+\contentsline {subsection}{{\fehrestContent چت همزمان}}{8}{section*.14}%
+\contentsline {subsection}{{\fehrestContent پایگاه داده}}{8}{section*.15}%
+\contentsline {subsection}{{\fehrestContent {REST}}}{8}{section*.16}%
+\contentsline {subsection}{{\fehrestContent بانک}}{9}{section*.17}%
+\contentsline {subsection}{{\fehrestContent امنیت}}{9}{section*.18}%
+\contentsline {subsection}{{\fehrestContent {Peer-to-Peer}}}{9}{section*.19}%
