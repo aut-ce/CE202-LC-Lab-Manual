@@ -1,0 +1,307 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage[svgnames]{xcolor} 
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage[many]{tcolorbox}
+\usepackage{listings }
+\usepackage[a4paper, total={6in, 8in}, top = 3cm,bottom = 4cm]{geometry}
+\usepackage{afterpage}
+\usepackage{amssymb}
+\usepackage{pdflscape}
+\usepackage{textcomp}
+\usepackage{xecolor}
+\usepackage{rotating}
+\usepackage[Kashida]{xepersian}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage{PTSerif} 
+\usepackage{seqsplit}
+\usepackage{changepage}
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{sectsty}
+
+\setcounter{secnumdepth}{0}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{blanchedalmond}{rgb}{1.0, 0.92, 0.8}
+\definecolor{brilliantlavender}{rgb}{0.96, 0.73, 1.0}
+ 
+\NewDocumentCommand{\codeword}{v}{
+\texttt{\textcolor{blue}{#1}}
+}
+\lstset{language=java,keywordstyle={\bfseries \color{blue}}}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\normalsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+ \settextfont[BoldFont={XB Zar bold.ttf}]{XB Zar.ttf}
+
+
+\setlatintextfont[Scale=1.0,
+ BoldFont={LiberationSerif-Bold.ttf}, 
+ ItalicFont={LiberationSerif-Italic.ttf}]{LiberationSerif-Regular.ttf}
+
+
+
+
+\newcommand{\inputsample}[1]{
+    ~\\
+    \textbf{ورودی نمونه}
+    ~\\
+    \begin{tcolorbox}[breakable,boxrule=0pt]
+        \begin{latin}
+            \large{
+                #1
+            }
+        \end{latin}
+    \end{tcolorbox}
+}
+
+\newcommand{\outputsample}[1]{
+    ~\\
+    \textbf{خروجی نمونه}
+
+    \begin{tcolorbox}[breakable,boxrule=0pt]
+        \begin{latin}
+            \large{
+                #1
+            }
+        \end{latin}
+    \end{tcolorbox}
+}
+
+\newtcolorbox{mybox}[2][]{colback=red!5!white,
+colframe=red!75!black,fonttitle=\bfseries,
+colbacktitle=red!85!black,enhanced,
+attach boxed title to top center={yshift=-2mm},
+title=#2,#1}
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item[]}{\end{list}}
+
+
+\definecolor{foldercolor}{RGB}{124,166,198}
+\definecolor{sectionColor}{HTML}{ff5e0e}
+\definecolor{subsectionColor}{HTML}{008575}
+
+\definecolor{listColor}{HTML}{00d3b9}
+
+\definecolor{umlrelcolor}{HTML}{3c78d8}
+
+\definecolor{subsubsectionColor}{HTML}{3c78d8}
+
+\defpersianfont\authorFont[Scale=0.9]{XB Zar bold.ttf}
+
+\defpersianfont\titr[Scale=1.5]{Lalezar-Regular.ttf}
+
+\defpersianfont\fehrest[Scale=1.2]{Lalezar-Regular.ttf}
+
+\defpersianfont\fehrestTitle[Scale=3.0]{Lalezar-Regular.ttf}
+
+\defpersianfont\fehrestContent[Scale=1.2]{XB Zar bold.ttf}
+
+
+\sectionfont{\color{sectionColor}}  % sets colour of sections
+\subsectionfont{\color{subsectionColor}}  % sets colour of sections
+\subsubsectionfont{\color{subsubsectionColor}}
+
+
+\renewcommand{\labelitemii}{$\circ$}
+
+
+\renewcommand{\baselinestretch}{1.1}
+
+
+\renewcommand{\contentsname}{فهرست}
+
+\renewcommand{\cfttoctitlefont}{\fehrestTitle}
+
+
+\renewcommand\cftsecfont{\color{sectionColor}\fehrestContent\selectfont}
+\renewcommand\cftsubsecfont{\color{subsectionColor}\fehrestContent\selectfont}
+\renewcommand\cftsubsubsecfont{\color{subsubsectionColor}\fehrestContent\selectfont}
+%\renewcommand{\cftsecpagefont}{\color{sectionColor}}
+
+\setlength{\parskip}{1.2pt}
+
+\begin{document}
+
+
+%%% title pages
+\begin{titlepage}
+\begin{center}
+
+\textbf{ \Huge{به نام خدا} }
+        
+\vspace{0.2cm}
+
+\includegraphics[width=0.4\textwidth]{sharif1.png}\\
+\vspace{0.2cm}
+\textbf{ \Huge{\emph درس برنامه‌سازی پیشرفته} }\\
+\vspace{0.25cm}
+\textbf{ \Large{پایگاه داده} }
+\vspace{0.2cm}
+       
+ 
+      \large \textbf{دانشکده مهندسی کامپیوتر}\\\vspace{0.1cm}
+    \large   دانشگاه صنعتی شریف\\\vspace{0.2cm}
+       \large   ﻧﯿﻢ سال دوم 99-98 \\\vspace{0.10cm}
+      \noindent\rule[1ex]{\linewidth}{1pt}
+اساتید:\\
+    \textbf{{مهدی مصطفی‌زاده، ایمان عیسی‌زاده، امیر ملک‌زاده، علی چکاه}}
+
+
+
+        \vspace{0.10cm}
+نگارش و تهیه محتوا:\\
+    \textbf{{حمیدرضا کلباسی}}
+    
+       \vspace{0.10cm}
+       تنظیم داک:\\
+    \textbf{{امیرمهدی نامجو}}
+
+    
+        \vspace{0.05cm}
+
+\end{center}
+\end{titlepage}
+%%% title pages
+
+
+%%% header of pages
+\newpage
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\cfoot{\thepage}
+\lhead{پایگاه داده}
+\rhead{\includegraphics[width=0.1\textwidth]{sharif.png}\\
+دانشکده مهندسی کامپیوتر
+}
+\chead{پروژه برنامه‌سازی پیشرفته}
+%%% header of pages
+\renewcommand{\headrulewidth}{2pt}
+
+\KashidaOff
+
+
+ \Large \textbf{\\
+}
+
+
+
+
+\section*{{\titr پایگاه داده چیست؟}}
+\addcontentsline{toc}{section}{{\fehrestContent پایگاه داده چیست؟}}
+
+پایگاه داده (\lr{database}) مجموعه‌ای از داده‌ها است که به صورت منظم با ساختار خاصی درون کامپیوتر نگهداری شده است. پایگاه‌های داده معمولاً توسط سامانه‌های مدیریت پایگاه داده (\lr{DBMS} ها) کنترل می‌شوند. شما می‌توانید پایگاه داده خود را درون یک فایل به صورت ساده نگهداری کنید اما مهندسان بسیاری روی \lr{D‌BMS} ها کار کرده‌اند و با توجه به شرایط کامپیوتر‌های موجود \lr{DBMS} هایی را توسعه داده‌اند که عملیات‌های معمول مانند جستجو، دریافت داده‌هایی با شرایط خاص و تغییر در پایگاه داده را با سرعت بالا و راحتی انجام دهند. در ادامه با برخی از انواع \lr{DBMS} ها و نحوه استفاده از آن‌ها آشنا می‌شویم.
+
+
+
+\section*{{\titr DBMS های رابطه‌ای (RDBMS)}}
+\addcontentsline{toc}{section}{{\fehrestContent DBMS های رابطه‌ای (RDBMS)}}
+
+
+این خانواده از \lr{DBMS} ها بسیار وسیع و در عین حال پر کاربرد هستند. \lr{RDBMS} ها از زبان درخواست ساخت یافته (\lr{SQL}) استفاده می‌کنند. این زبان به شما کمک می‌کند تا درخواست خود را در تعداد پرسش‌های کمی مطرح کنید و \lr{RDBMS} آن‌ها را به صورت فوق بهینه شده اجرا کند. هر میزان که پرسش‌های کمتری داشته باشید امید بیشتری برای دریافت سریع‌تر پاسخ دارید. برای مثال اگر می‌خواهید تعداد رکورد‌هایی که فیلد سن آن‌ها از ۳۰ بزرگ‌تر است را به دست بیاورید باید (سریع‌تر و راحت‌تر است که) از دستورات \lr{SQL} استفاده کنید تا اینکه کل جدول را فراخوانی کنید و به وسیله برنامه‌تان پاسخ را بدست آورید.
+
+\lr{RDBMS} های معروف فراوانی وجود دارند و شما بسته به نیازتان از یکی از آن‌ها استفاده می‌کنید. از آن‌ها می‌توان به \lr{MySQL}, \lr{PostgreSQL}, \lr{SQLite} و … اشاره کرد.
+
+
+در ادامه ما از \lr{SQLite} استفاده می‌کنیم. این \lr{DBMS} پایگاه داده را درون یک فایل ذخیره می‌کند. مزیتش این است که نیاز به نصب و اجرا شدن یک سرویس در کنار برنامه ندارد و برنامه به خودی خود می‌تواند از پایگاه داده استفاده کند. این \lr{DBMS} برای استفاده‌های معمول (تا یک میلیون درخواست در روز) مناسب است و برای استفاده‌های بزرگ‌تر باید از \lr{DBMS} های دیگر استفاده کرد.
+\newpage
+ابتدا نرم‌افزار زیر را نصب کنید:
+
+\begin{flushleft}
+\href{https://sqlitebrowser.org/dl/}{\textcolor{blue}{\underline{\lr{https://sqlitebrowser.org/dl/}}}}	 	 	 	
+
+\end{flushleft}
+
+
+این نرم‌افزار اجباری نیست، اما به شما کمک می‌کند تا بتوانید جداول پایگاه داده‌تان را به صورت زیبا ببینید و درخواست‌هایی با زبان SQL انجام دهید.
+
+سپس پایگاه داده نمونه \lr{northwind} را بارگیری کنید:
+
+\begin{flushleft}
+\href{https://github.com/jpwhite3/northwind-SQLite3/blob/master/Northwind_small.sqlite}{\textcolor{blue}{\underline{\lr{Northwind SQLite Database}}}}
+
+\end{flushleft}
+
+و آن را به کمک نرم‌افزار بالا باز کنید و جداول آن را ببینید.
+
+سپس از سایت زیر با \lr{SQL} آشنا شوید:
+\begin{flushleft}
+\href{https://www.w3schools.com/sql/sql_select.asp}{\textcolor{blue}{\underline{\lr{https://www.w3schools.com/sql/sql\_select.asp}}}}
+
+\end{flushleft}
+
+پایگاه داده‌ای که این آموزش از آن استفاده می‌کند، همان پایگاه داده بالاست، با این تفاوت که نام جداول و ستون‌ها تفاوت‌های کوچکی دارد. به همین دلیل اگر دستورات را کپی پیست کنید کار نمی‌کند و باید آن‌ها را خودتان بنویسید. سعی کنید که تا بخش \lr{Group By} را فرا بگیرید.
+
+سپس از این لینک یاد بگیرید که چگونه می‌توان از طریق جاوا به پایگاه داده درخواست داد:
+
+\begin{flushleft}
+\href{https://www.tutorialspoint.com/sqlite/sqlite_java.htm}{\textcolor{blue}{\underline{\lr{https://www.tutorialspoint.com/sqlite/sqlite\_java.htm}}}}
+
+\end{flushleft}
+
+توجه کنید که کتاب‌خانه معرفی شده در این آموزش تنها مخصوص SQLite نیست و طیف وسیعی از RDBMS ها را پشتیبانی می‌کند.
+
+
+
+
+\section*{{\titr RDBMS های NOSQL}}
+\addcontentsline{toc}{section}{{\fehrestContent RDBMS های NOSQL}}
+
+با پیشرفت تکنولوژی و در نتیجه نیاز های بشر، دیگر \lr{RDBMS} ها پاسخگوی همه‌ی نیازها نبودند. در نتیجه \lr{DBMS} های \lr{NOSQL} ساخته شد. این‌ها از زبان \lr{SQL} پشتیبانی نمی‌کنند و در عوض قابلیت‌های دیگری مانند نگهداری پایگاه داده در چند سرور مجزا، جستجو در گراف و … را دارند. در اینجا به این نوع از \lr{DBMS} ها نمی‌پردازیم (بپردازیم؟) اما برای آشنایی می‌توانید لینک زیر را مطالعه کنید:
+
+\begin{flushleft}
+\href{https://www.mongodb.com/nosql-explained}{\textcolor{blue}{\underline{\lr{https://www.mongodb.com/nosql-explained}}}}
+
+\end{flushleft}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
