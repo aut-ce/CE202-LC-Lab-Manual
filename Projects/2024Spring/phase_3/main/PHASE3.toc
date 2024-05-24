@@ -2,23 +2,25 @@
 \contentsline {section}{{\fehrestContent مقدمه}}{3}{section*.2}%
 \contentsline {subsection}{{\fehrestContent یعقوب برقی که بود؟}}{3}{section*.3}%
 \contentsline {subsection}{{\fehrestContent اهداف پروژه}}{4}{section*.4}%
-\contentsline {section}{{\fehrestContent بخش‌های اصلی}}{4}{section*.5}%
-\contentsline {subsection}{{\fehrestContent فاز صفر}}{4}{section*.6}%
-\contentsline {subsubsection}{{\fehrestContent راه‌اندازی مخزن GitHub}}{5}{section*.7}%
-\contentsline {subsubsection}{{\fehrestContent طراحی FSM برای منطق پروژه}}{5}{section*.8}%
-\contentsline {subsection}{{\fehrestContent فاز اول}}{5}{section*.9}%
-\contentsline {subsection}{{\fehrestContent بانک}}{6}{section*.10}%
-\contentsline {subsection}{{\fehrestContent کیف پول}}{7}{section*.11}%
-\contentsline {subsection}{{\fehrestContent پشتیبانی}}{8}{section*.12}%
-\contentsline {subsection}{{\fehrestContent مزایده}}{8}{section*.13}%
-\contentsline {subsection}{{\fehrestContent خرید و فروش فایل}}{8}{section*.14}%
-\contentsline {subsection}{{\fehrestContent ارسال خرید}}{9}{section*.15}%
-\contentsline {subsection}{{\fehrestContent توکن}}{9}{section*.16}%
-\contentsline {section}{{\fehrestContent بخش‌های امتیازی}}{10}{section*.17}%
-\contentsline {subsection}{{\fehrestContent وضعیت کاربران}}{10}{section*.18}%
-\contentsline {subsection}{{\fehrestContent چت همزمان}}{10}{section*.19}%
-\contentsline {subsection}{{\fehrestContent پایگاه داده}}{10}{section*.20}%
-\contentsline {subsection}{{\fehrestContent {REST}}}{10}{section*.21}%
-\contentsline {subsection}{{\fehrestContent بانک}}{11}{section*.22}%
-\contentsline {subsection}{{\fehrestContent امنیت}}{11}{section*.23}%
-\contentsline {subsection}{{\fehrestContent {Peer-to-Peer}}}{11}{section*.24}%
+\contentsline {section}{{\fehrestContent توضیحات کلی}}{4}{section*.5}%
+\contentsline {subsection}{{\fehrestContent حالت مدیر}}{5}{section*.6}%
+\contentsline {section}{{\fehrestContent بخش‌های اصلی}}{6}{section*.7}%
+\contentsline {subsection}{{\fehrestContent فاز صفر}}{6}{section*.8}%
+\contentsline {subsubsection}{{\fehrestContent راه‌اندازی مخزن GitHub}}{8}{section*.9}%
+\contentsline {subsubsection}{{\fehrestContent طراحی FSM برای منطق پروژه}}{8}{section*.10}%
+\contentsline {subsection}{{\fehrestContent فاز اول}}{8}{section*.11}%
+\contentsline {subsection}{{\fehrestContent بانک}}{9}{section*.12}%
+\contentsline {subsection}{{\fehrestContent کیف پول}}{10}{section*.13}%
+\contentsline {subsection}{{\fehrestContent پشتیبانی}}{11}{section*.14}%
+\contentsline {subsection}{{\fehrestContent مزایده}}{11}{section*.15}%
+\contentsline {subsection}{{\fehrestContent خرید و فروش فایل}}{11}{section*.16}%
+\contentsline {subsection}{{\fehrestContent ارسال خرید}}{12}{section*.17}%
+\contentsline {subsection}{{\fehrestContent توکن}}{12}{section*.18}%
+\contentsline {section}{{\fehrestContent بخش‌های امتیازی}}{13}{section*.19}%
+\contentsline {subsection}{{\fehrestContent وضعیت کاربران}}{13}{section*.20}%
+\contentsline {subsection}{{\fehrestContent چت همزمان}}{13}{section*.21}%
+\contentsline {subsection}{{\fehrestContent پایگاه داده}}{13}{section*.22}%
+\contentsline {subsection}{{\fehrestContent {REST}}}{13}{section*.23}%
+\contentsline {subsection}{{\fehrestContent بانک}}{14}{section*.24}%
+\contentsline {subsection}{{\fehrestContent امنیت}}{14}{section*.25}%
+\contentsline {subsection}{{\fehrestContent {Peer-to-Peer}}}{14}{section*.26}%
