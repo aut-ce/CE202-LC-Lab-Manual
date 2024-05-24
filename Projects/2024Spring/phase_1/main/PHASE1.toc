@@ -1,0 +1,20 @@
+\contentsline {section}{{\fehrestContent نکات قابل توجه}}{2}{section*.1}%
+\contentsline {section}{{\fehrestContent مقدمه}}{3}{section*.2}%
+\contentsline {subsection}{{\fehrestContent اهداف قابل توجه}}{3}{section*.3}%
+\contentsline {subsection}{{\fehrestContent کلیات پروژه}}{3}{section*.4}%
+\contentsline {section}{{\fehrestContent توضیح بخش‌های مختلف پروژه}}{5}{section*.5}%
+\contentsline {subsection}{{\fehrestContent بخش‌ها}}{5}{section*.6}%
+\contentsline {subsubsection}{{\fehrestContent موجودیت‌ها}}{5}{section*.7}%
+\contentsline {subsubsection}{{\fehrestContent نمای کلی رابط کاربری}}{9}{section*.8}%
+\contentsline {subsection}{{\fehrestContent نقش‌ها}}{11}{section*.9}%
+\contentsline {subsection}{{\fehrestContent فرآیندها}}{13}{section*.10}%
+\contentsline {section}{{\fehrestContent دستورات مورد نیاز}}{17}{section*.11}%
+\contentsline {subsection}{{\fehrestContent نکات مهم:}}{17}{section*.12}%
+\contentsline {subsection}{{\fehrestContent صفحه لاگین/رجیستر:}}{18}{section*.13}%
+\contentsline {subsection}{{\fehrestContent صفحه اصلی > ناحیه کاربری }}{19}{section*.14}%
+\contentsline {subsubsection}{{\fehrestContent «حساب مدیر»}}{19}{section*.15}%
+\contentsline {subsubsection}{{\fehrestContent «حساب فروشنده»}}{24}{section*.16}%
+\contentsline {subsubsection}{{\fehrestContent «حساب خریدار»}}{29}{section*.17}%
+\contentsline {subsection}{{\fehrestContent صفحهٔ محصولات}}{33}{section*.18}%
+\contentsline {subsection}{{\fehrestContent صفحهٔ محصول}}{37}{section*.19}%
+\contentsline {subsection}{{\fehrestContent صفحهٔ حراج‌ها}}{39}{section*.20}%

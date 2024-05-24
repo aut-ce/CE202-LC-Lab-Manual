@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.4)  24 MAY 2024 18:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.4)  24 MAY 2024 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PHASE3.tex
-(./PHASE3.tex
+**PHASE1.tex
+(./PHASE1.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1082,6 +1082,10 @@ File: url-xepersian.def 2022/02/18 v0.1 adaptations for url package
 File: article-xepersian.def 2010/07/25 v0.2 adaptations for standard article cl
 ass
 )
+(/usr/share/texlive/texmf-dist/tex/xelatex/xepersian/kashida-xepersian.def
+File: kashida-xepersian.def 2020/05/16 v0.8 implementation of Kashida for xeper
+sian package
+)
 
 Package fontspec Info: Font family 'lmroman10-regular(0)' created for font
 (fontspec)             'lmroman10-regular' with options
@@ -1215,7 +1219,7 @@ guage=dflt;mapping=tex-text;"
 anguage=dflt;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
-LaTeX Info: Redefining \latinfont on input line 73.
+LaTeX Info: Redefining \latinfont on input line 72.
 
 Package fontspec Info: Font family 'XBZarbold.ttf(0)' created for font 'XB Zar
 (fontspec)             bold.ttf' with options
@@ -1231,6 +1235,52 @@ ng=persian-tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.134 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.134 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.134 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
 Package fontspec Info: Font family 'Lalezar-Regular.ttf(0)' created for font
 (fontspec)             'Lalezar-Regular.ttf' with options
 (fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1.5
@@ -1240,9 +1290,54 @@ Package fontspec Info: Font family 'Lalezar-Regular.ttf(0)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.5]"[Lalezar-Regular.ttf]/OT:script=latn;language
-=dflt;script=arab;mapping=persian-tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             <->s*[1.5]"[Lalezar-Regular.ttf]/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.5]"[Lalezar-Regular.ttf]/OT"
+
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.136 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.136 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.136 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
 
 
 Package fontspec Info: Font family 'Lalezar-Regular.ttf(1)' created for font
@@ -1254,9 +1349,54 @@ Package fontspec Info: Font family 'Lalezar-Regular.ttf(1)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1.2]"[Lalezar-Regular.ttf]/OT:script=latn;language
-=dflt;script=arab;mapping=persian-tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             <->s*[1.2]"[Lalezar-Regular.ttf]/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.2]"[Lalezar-Regular.ttf]/OT"
+
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.138 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.138 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Lalezar-Regular" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.138 
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
 
 
 Package fontspec Info: Font family 'Lalezar-Regular.ttf(2)' created for font
@@ -1268,9 +1408,9 @@ Package fontspec Info: Font family 'Lalezar-Regular.ttf(2)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[3.0]"[Lalezar-Regular.ttf]/OT:script=latn;language
-=dflt;script=arab;mapping=persian-tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             <->s*[3.0]"[Lalezar-Regular.ttf]/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[3.0]"[Lalezar-Regular.ttf]/OT"
 
 
 Package fontspec Info: Font family 'XBZarbold.ttf(1)' created for font 'XB Zar
@@ -1286,42 +1426,43 @@ Package fontspec Info: Font family 'XBZarbold.ttf(1)' created for font 'XB Zar
 ng=persian-tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (./PHASE3.aux)
-\openout1 = `PHASE3.aux'.
+No file PHASE1.aux.
+\openout1 = `PHASE1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-69.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+65.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-Package hyperref Info: Link coloring OFF on input line 169.
- (./PHASE3.out)
-(./PHASE3.out)
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+Package hyperref Info: Link coloring OFF on input line 165.
 \@outlinefile=\write4
-\openout4 = `PHASE3.out'.
+\openout4 = `PHASE1.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@lstlisting=\count394
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1356,323 +1497,910 @@ Package hyperref Info: Link coloring OFF on input line 169.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-File: Logo/aut-fa2.png Graphic file (type bmp)
-<Logo/aut-fa2.png>
+File: sharif1.png Graphic file (type bmp)
+<sharif1.png>
 
 LaTeX Font Warning: Font shape `TU/XBZar.ttf(0)/b/it' undefined
-(Font)              using `TU/XBZar.ttf(0)/b/n' instead on input line 182.
+(Font)              using `TU/XBZar.ttf(0)/b/n' instead on input line 178.
 
 
 LaTeX Font Warning: Font shape `TU/XBZarbold.ttf(0)/b/n' undefined
-(Font)              using `TU/XBZarbold.ttf(0)/m/n' instead on input line 204.
+(Font)              using `TU/XBZarbold.ttf(0)/m/n' instead on input line 201.
 
 LaTeX Font Info:    Font shape `TU/XBZarbold.ttf(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 204.
+(Font)              scaled to size 10.79993pt on input line 201.
 LaTeX Font Info:    Font shape `TU/XBZarbold.ttf(0)/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 208.
+(Font)              scaled to size 10.79993pt on input line 205.
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/Lalezar-Regular.ttf(2)/m/n' will be
-(Font)              scaled to size 30.0pt on input line 232.
- (./PHASE3.toc
-LaTeX Font Info:    Font shape `TU/XBZarbold.ttf(1)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+(Font)              scaled to size 30.0pt on input line 239.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+! Font TU/Lalezar-Regular.ttf(2)/m/n/10=[Lalezar-Regular.ttf]/OT at 30.0pt not 
+loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.239 \tableofcontents
+                      
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ط ("637) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+No file PHASE1.toc.
 \tf@toc=\write5
-\openout5 = `PHASE3.toc'.
+\openout5 = `PHASE1.toc'.
 
- [1]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 [][]
  []
 
 
 LaTeX Font Warning: Font shape `TU/Lalezar-Regular.ttf(0)/b/n' undefined
 (Font)              using `TU/Lalezar-Regular.ttf(0)/m/n' instead on input line
- 239.
+ 247.
 
 LaTeX Font Info:    Font shape `TU/Lalezar-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 21.59999pt on input line 239.
+(Font)              scaled to size 21.59999pt on input line 247.
+! Font TU/Lalezar-Regular.ttf(0)/m/n/14.4=[Lalezar-Regular.ttf]/OT at 21.59999p
+t not loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.247 \section*{{\titr نکات قابل توجه}}
+                                       
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ق ("642) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 240.
+(hyperref)                removing `\fehrestContent' on input line 248.
 
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
+LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 251.
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
-[][]
- []
-
 LaTeX Font Info:    Font shape `TU/Lalezar-Regular.ttf(0)/b/n' will be
-(Font)              scaled to size 21.59999pt on input line 270.
+(Font)              scaled to size 21.59999pt on input line 268.
+
+! Font TU/Lalezar-Regular.ttf(0)/b/n/14.4=[Lalezar-Regular.ttf]/OT at 21.59999p
+t not loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.268 \section*{{\titr مقدمه}}
+                              
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ق ("642) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 271.
+(hyperref)                removing `\fehrestContent' on input line 269.
 
 LaTeX Font Info:    Font shape `TU/Lalezar-Regular.ttf(0)/b/n' will be
-(Font)              scaled to size 18.0pt on input line 274.
-LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 274.
+(Font)              scaled to size 18.0pt on input line 271.
+! Font TU/Lalezar-Regular.ttf(0)/b/n/12=[Lalezar-Regular.ttf]/OT at 18.0pt not 
+loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.271 \subsection*{{\titr اهداف پروژه}}
+                                       
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no پ ("67E) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ژ ("698) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 275.
+(hyperref)                removing `\fehrestContent' on input line 273.
 
-File: images/img1.png Graphic file (type bmp)
-<images/img1.png>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 288
+.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 288
+.
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-[][]
- []
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no پ ("67E) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ژ ("698) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 301.
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-[][]
- []
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [3]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 310.
-
-LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 313.
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-[][]
+Overfull \hbox (10.36037pt too wide) in paragraph at lines 320--321
+[]\TU/XBZar.ttf(0)/m/n/14.4 همچنین برای []\TU/LiberationSerif-Regular.ttf(0)/m/
+n/14.4 code coverage[] \TU/XBZar.ttf(0)/m/n/14.4 بالاتر از ۷۰ درصد، به صورت خطی
+ با درصد []\TU/LiberationSerif-Regular.ttf(0)/m/n/14.4 coverage[]\TU/XBZar.ttf(
+0)/m/n/14.4 ،[]
  []
 
-Missing character: There is no ‌ (U+200C) in font [Lalezar-Regular.ttf]/OT:scri
-pt=latn;language=dflt;script=arab;mapping=persian-tex-text;!
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 330.
+Overfull \hbox (1.52986pt too wide) in paragraph at lines 327--328
+[][]\TU/XBZar.ttf(0)/m/n/14.4 در هر جایی از پروژه می‌توانید هرگونه خلاقیتی را ب
+ه‌کار ببرید. توجه کنید که خواسته‌های[]
+ []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 334.
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
-[][]
- []
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ض ("636) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no خ ("62E) in font nullfont!
+Missing character: There is no ش ("634) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no خ ("62E) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no پ ("67E) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ژ ("698) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 336.
+
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no خ ("62E) in font nullfont!
+Missing character: There is no ش ("634) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 339.
 
 LaTeX Font Info:    Font shape `TU/Lalezar-Regular.ttf(0)/b/n' will be
-(Font)              scaled to size 15.0pt on input line 354.
-Missing character: There is no ‌ (U+200C) in font [Lalezar-Regular.ttf]/OT:scri
-pt=latn;language=dflt;script=arab;mapping=persian-tex-text;!
+(Font)              scaled to size 15.0pt on input line 341.
+! Font TU/Lalezar-Regular.ttf(0)/b/n/10=[Lalezar-Regular.ttf]/OT at 15.0pt not 
+loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.341 \subsubsection*{{\titr موجودیت‌ها}}
+                                         
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 355.
+(hyperref)                removing `\fehrestContent' on input line 342.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 372.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 392.
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [5]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 405.
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
-[][]
- []
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 419.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
-[][]
- []
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [7]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 472.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 477.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 503.
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [8]
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ط ("637) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 512.
+(hyperref)                removing `\fehrestContent' on input line 616.
 
-
-Overfull \hbox (0.5166pt too wide) in paragraph at lines 518--519
-[][]\TU/XBZar.ttf(0)/m/n/14.4 اگر محصول خریداری شده فایل بود، همین اطلاعات باید
- در حساب مدیران و خریداران[]
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 522.
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
-[][]
- []
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
-Missing character: There is no ‌ (U+200C) in font [Lalezar-Regular.ttf]/OT:scri
-pt=latn;language=dflt;script=arab;mapping=persian-tex-text;!
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 533.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 539.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 544.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 550.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 561.
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
 [10]
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ق ("642) in font nullfont!
+Missing character: There is no ش ("634) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 569.
+(hyperref)                removing `\fehrestContent' on input line 718.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 603.
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 63.28137pt, for example:
-(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
 
-[11] (./PHASE3.aux)
+[11]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[12]
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no آ ("622) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 883.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[13]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[14]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[15]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[16]
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ز ("632) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 1151.
+
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 1154.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[17]
+Missing character: There is no ص ("635) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no گ ("6AF) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 1181.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[18]
+Missing character: There is no ص ("635) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ص ("635) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ک ("6A9) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 1241.
+
+Missing character: There is no « ("AB) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no » ("BB) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 1244.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[19]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[20]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[21]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[22]
+Overfull \hbox (2.42986pt too wide) in paragraph at lines 1548--1549
+[][]\TU/XBZar.ttf(0)/m/n/14.4 دسته بندی‌های موجود کالاها را نمایش می‌دهد (برای 
+ویرایش/اضافه کردن دسته بندی‌ها) []
+ []
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[23]
+Missing character: There is no « ("AB) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ش ("634) in font nullfont!
+Missing character: There is no ن ("646) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no » ("BB) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 1607.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[24]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[25]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[26]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[27]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[28]
+Missing character: There is no « ("AB) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no س ("633) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ب ("628) in font nullfont!
+Missing character: There is no خ ("62E) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ی ("6CC) in font nullfont!
+Missing character: There is no د ("62F) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no » ("BB) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 1873.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[29]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[30]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[31]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[32]
+Missing character: There is no ص ("635) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ٔ ("654) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ص ("635) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ت ("62A) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 2154.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[33]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[34]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[35]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[36]
+Missing character: There is no ص ("635) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ٔ ("654) in font nullfont!
+Missing character: There is no م ("645) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ص ("635) in font nullfont!
+Missing character: There is no و ("648) in font nullfont!
+Missing character: There is no ل ("644) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 2398.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[37]
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[38]
+Missing character: There is no ص ("635) in font nullfont!
+Missing character: There is no ف ("641) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ٔ ("654) in font nullfont!
+Missing character: There is no ح ("62D) in font nullfont!
+Missing character: There is no ر ("631) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+Missing character: There is no ج ("62C) in font nullfont!
+Missing character: There is no ‌ ("200C) in font nullfont!
+Missing character: There is no ه ("647) in font nullfont!
+Missing character: There is no ا ("627) in font nullfont!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 2518.
+
+File: sharif.png Graphic file (type bmp)
+<sharif.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 58.96025pt, for example:
+(fancyhdr)                \setlength{\headheight}{58.96025pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-46.96025pt}.
+
+[39] (./PHASE1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1681,16 +2409,22 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `PHASE3.out' has not changed.
-(rerunfilecheck)             Checksum: ADBEDFD5D4D886FA184AF968A6E0DFF7;3210.
+
+Package rerunfilecheck Warning: File `PHASE1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `PHASE1.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  B5D5D36C05F6BB0FF9A7AE0CBD17D08D;3171.
  ) 
 Here is how much of TeX's memory you used:
- 32333 strings out of 474878
- 687696 string characters out of 5762517
- 1927627 words of memory out of 5000000
- 53728 multiletter control sequences out of 15000+600000
- 569644 words of font info for 112 fonts, out of 8000000 for 9000
+ 32505 strings out of 474878
+ 690608 string characters out of 5762517
+ 1941627 words of memory out of 5000000
+ 53928 multiletter control sequences out of 15000+600000
+ 564266 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,13n,107p,1316b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,107p,1316b,1256s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PHASE3.pdf (12 pages).
+Output written on PHASE1.pdf (40 pages).
