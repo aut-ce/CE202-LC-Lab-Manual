@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.4)  23 MAY 2024 21:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.5.4)  24 MAY 2024 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,11 +1410,11 @@ File: Logo/ce-fa.png Graphic file (type bmp)
 <Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.19304pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.19304pt}.
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-52.19304pt}.
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
 
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 268--269
@@ -1427,20 +1427,64 @@ LaTeX Font Info:    Font shape `TU/Lalezar-Regular.ttf(0)/b/n' will be
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\fehrestContent' on input line 271.
 
+LaTeX Font Info:    Font shape `TU/Lalezar-Regular.ttf(0)/b/n' will be
+(Font)              scaled to size 18.0pt on input line 274.
 LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 287.
+(Font)              scaled to size 8.0pt on input line 274.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 275.
+
+File: images/img1.png Graphic file (type bmp)
+<images/img1.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+[][]
+ []
+
 File: Logo/ce-fa.png Graphic file (type bmp)
 <Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.19304pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.19304pt}.
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-52.19304pt}.
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 318.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 325.
+
+LaTeX Font Info:    Font shape `TU/LiberationSerif-Regular.ttf(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 351.
+File: Logo/ce-fa.png Graphic file (type bmp)
+<Logo/ce-fa.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
 [][]
  []
 
@@ -1448,102 +1492,100 @@ Missing character: There is no ‌ (U+200C) in font [Lalezar-Regular.ttf]/OT:scr
 pt=latn;language=dflt;script=arab;mapping=persian-tex-text;!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 297.
-
-LaTeX Font Info:    Font shape `TU/Lalezar-Regular.ttf(0)/b/n' will be
-(Font)              scaled to size 18.0pt on input line 299.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 300.
+(hyperref)                removing `\fehrestContent' on input line 361.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 313.
+(hyperref)                removing `\fehrestContent' on input line 364.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 377.
 
 File: Logo/ce-fa.png Graphic file (type bmp)
 <Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.19304pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.19304pt}.
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-52.19304pt}.
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
-[][]
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 327.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
-[][]
- []
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.19304pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.19304pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-52.19304pt}.
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
 
 [5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 380.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 385.
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+[][]
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 411.
+(hyperref)                removing `\fehrestContent' on input line 391.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+[][]
+ []
 
 File: Logo/ce-fa.png Graphic file (type bmp)
 <Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.19304pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.19304pt}.
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-52.19304pt}.
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
 
 [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 420.
+(hyperref)                removing `\fehrestContent' on input line 444.
 
 
-Overfull \hbox (0.5166pt too wide) in paragraph at lines 426--427
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 449.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 475.
+
+File: Logo/ce-fa.png Graphic file (type bmp)
+<Logo/ce-fa.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+
+[7]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 484.
+
+
+Overfull \hbox (0.5166pt too wide) in paragraph at lines 490--491
 [][]\TU/XBZar.ttf(0)/m/n/14.4 اگر محصول خریداری شده فایل بود، همین اطلاعات باید
  در حساب مدیران و خریداران[]
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 430.
+(hyperref)                removing `\fehrestContent' on input line 494.
 
 File: Logo/ce-fa.png Graphic file (type bmp)
 <Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.19304pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.19304pt}.
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-52.19304pt}.
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
 [][]
  []
 
@@ -1551,58 +1593,58 @@ Missing character: There is no ‌ (U+200C) in font [Lalezar-Regular.ttf]/OT:scr
 pt=latn;language=dflt;script=arab;mapping=persian-tex-text;!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 441.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 447.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 452.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 458.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 469.
-
-File: Logo/ce-fa.png Graphic file (type bmp)
-<Logo/ce-fa.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.19304pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.19304pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-52.19304pt}.
-
-[8]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 477.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fehrestContent' on input line 496.
+(hyperref)                removing `\fehrestContent' on input line 505.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\fehrestContent' on input line 511.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 516.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 522.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 533.
+
 File: Logo/ce-fa.png Graphic file (type bmp)
 <Logo/ce-fa.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.19304pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.19304pt}.
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-52.19304pt}.
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
 
-[9] (./PHASE3.aux)
+[9]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 541.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 560.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fehrestContent' on input line 575.
+
+File: Logo/ce-fa.png Graphic file (type bmp)
+<Logo/ce-fa.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 63.28137pt, for example:
+(fancyhdr)                \setlength{\headheight}{63.28137pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-51.28137pt}.
+
+[10] (./PHASE3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1612,15 +1654,15 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `PHASE3.out' has not changed.
-(rerunfilecheck)             Checksum: 41558A21EF9EF7C40FF4ED442795FE11;2317.
+(rerunfilecheck)             Checksum: 4F4C4F03F6E64E96C223BAA15C19AE47;2709.
  ) 
 Here is how much of TeX's memory you used:
- 32258 strings out of 474878
- 686296 string characters out of 5762517
+ 32324 strings out of 474878
+ 687481 string characters out of 5762517
  1927627 words of memory out of 5000000
- 53666 multiletter control sequences out of 15000+600000
- 564967 words of font info for 90 fonts, out of 8000000 for 9000
+ 53720 multiletter control sequences out of 15000+600000
+ 569636 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,12n,107p,1316b,399s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,107p,1316b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PHASE3.pdf (10 pages).
+Output written on PHASE3.pdf (11 pages).
