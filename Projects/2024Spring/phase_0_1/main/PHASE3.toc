@@ -6,10 +6,10 @@
 \contentsline {subsection}{{\fehrestContent حالت مدیر}}{5}{section*.6}%
 \contentsline {subsection}{{\fehrestContent حالت کاربر}}{7}{section*.7}%
 \contentsline {section}{{\fehrestContent بخش‌های اصلی}}{8}{section*.8}%
-\contentsline {subsection}{{\fehrestContent فاز صفر}}{8}{section*.9}%
+\contentsline {subsection}{{\fehrestContent فاز اول}}{8}{section*.9}%
 \contentsline {subsubsection}{{\fehrestContent راه‌اندازی مخزن GitHub}}{8}{section*.10}%
-\contentsline {subsubsection}{{\fehrestContent طراحی FSM برای منطق پروژه}}{9}{section*.11}%
-\contentsline {subsection}{{\fehrestContent فاز اول}}{9}{section*.12}%
-\contentsline {section}{{\fehrestContent بخش‌های امتیازی}}{10}{section*.13}%
-\contentsline {subsection}{{\fehrestContent وضعیت دریافت ورودی}}{10}{section*.14}%
-\contentsline {subsection}{{\fehrestContent وضعیت دریافت ورودی}}{11}{section*.15}%
+\contentsline {subsubsection}{{\fehrestContent طراحی FSM برای منطق پروژه}}{10}{section*.11}%
+\contentsline {subsection}{{\fehrestContent فاز دوم}}{10}{section*.12}%
+\contentsline {section}{{\fehrestContent بخش‌های امتیازی}}{11}{section*.13}%
+\contentsline {subsection}{{\fehrestContent وضعیت دریافت ورودی}}{11}{section*.14}%
+\contentsline {subsection}{{\fehrestContent وضعیت دریافت ورودی}}{12}{section*.15}%
