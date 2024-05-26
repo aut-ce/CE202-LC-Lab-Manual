@@ -5,9 +5,9 @@
 \contentsline {section}{{\fehrestContent توضیحات کلی}}{4}{section*.5}%
 \contentsline {subsection}{{\fehrestContent حالت مدیر}}{5}{section*.6}%
 \contentsline {subsection}{{\fehrestContent حالت کاربر}}{7}{section*.7}%
-\contentsline {section}{{\fehrestContent بخش‌های اصلی}}{9}{section*.8}%
-\contentsline {subsection}{{\fehrestContent فاز اول}}{9}{section*.9}%
-\contentsline {subsubsection}{{\fehrestContent راه‌اندازی مخزن GitHub}}{9}{section*.10}%
+\contentsline {section}{{\fehrestContent بخش‌های اصلی}}{10}{section*.8}%
+\contentsline {subsection}{{\fehrestContent فاز اول}}{10}{section*.9}%
+\contentsline {subsubsection}{{\fehrestContent راه‌اندازی مخزن GitHub}}{10}{section*.10}%
 \contentsline {subsubsection}{{\fehrestContent طراحی FSM برای منطق پروژه}}{11}{section*.11}%
 \contentsline {subsection}{{\fehrestContent فاز دوم}}{11}{section*.12}%
 \contentsline {section}{{\fehrestContent بخش‌های امتیازی}}{12}{section*.13}%
