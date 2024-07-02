@@ -28,5 +28,15 @@
 [:mortar_board:alisoveizi13](https://github.com/alisoveizi13), Ali Soveizi, Laboratory Instructor
 
 
+### Fall 2023 Semester
+[:mortar_board:FarzanehArzaghi](https://github.com/FarzanehArzaghi), Farzaneh Arzaghi, Course TA
+[:mortar_board:RezaAdinepour](https://github.com/RezaAdinepour), Reza Adinepour, Laboratory Instructor
+[:mortar_board:MAdel93](https://github.com/RezaAdinepour), Morteza Adel Khani, Laboratory Instructor
+[:mortar_board:afarajlou](https://github.com/afarajlou), Asal Farajlou, Laboratory Instructor
+[:mortar_board:ArefeGholami](https://github.com/ArefeGholami), Arefe Gholami, Laboratory Instructor
+:mortar_board: Rasoul Kazemi, Laboratory Instructor
+:mortar_board: Fateme Sanei, Laboratory Instructor
+
+
 <!-- add yours above line -->
 
