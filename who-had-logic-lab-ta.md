@@ -46,5 +46,12 @@
 :mortar_board: Fateme Sanei, Laboratory Instructor
 
 
+### Spring 2024 Semester
+[:mortar_board:mohammadmahdi255](https://github.com/mohammadmahdi255), Mohammad Mahdi Nemati, Course TA
+
+[:mortar_board:RezaAdinepour](https://github.com/RezaAdinepour), Reza Adinepour, Laboratory Instructor
+
+:mortar_board: Rasoul Kazemi, Laboratory Instructor
+
 <!-- add yours above line -->
 
